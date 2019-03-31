@@ -2,7 +2,12 @@ Building on Linux
 ===================
 
 Building horizon on Linux is as simple as ``make`` after you’ve cloned
-this repo. Make sure you got these dependencies installed:
+this repo.
+
+Install dependencies
+--------------------
+
+Make sure you got these dependencies installed:
 
 -  Gtkmm3 ≥ 3.20
 -  cairomm-pdf
@@ -40,5 +45,21 @@ On Fedora 25/26/27:
       gtkmm30-devel libgit2-devel libuuid-devel yaml-cpp-devel sqlite-devel librsvg2-devel\
       cairomm-devel glm-devel boost-devel libcurl-devel
 
+Build it
+--------
+
+::
+
+   make -j 4
+
+Running
+-------
+
 The resulting binaries are self-contained and don’t require any external
 data files like icons or so.
+``horizon-eda`` is the main program executable. Run it from the build
+directory:
+
+::
+
+   ./horizon-eda
