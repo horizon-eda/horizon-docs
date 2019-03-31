@@ -5,3 +5,5 @@ Rendered output is available on [Read the Docs](https://horizon-eda.readthedocs.
 
 If applicable, try to follow the [Google Developer Documentation Style 
 Guide](https://developers.google.com/style/).
+
+This repository is licensed under CC-BY-SA-4.0.
