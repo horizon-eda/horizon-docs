@@ -33,9 +33,7 @@ When you’re done, the schematic should roughly look like this (with the
 boxes added for clarification). All components inside a yellow box
 belong to the same group, all inside a red box belong to the same tag.
 
-.. figure:: images/groups-tags.png
-   :alt: grouptags
-
+.. image:: images/groups-tags.png
 
 You may use the “Highlight group/tag” action to make sure that you got
 the assignments right.

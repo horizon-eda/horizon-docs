@@ -19,3 +19,10 @@ Welcome to horizon-eda's documentation!
    rules
    create-package
    copy-layout-placement
+   parameter-programs
+   cli-usage
+   getting-started
+   padstacks
+   theory-of-operation
+   pool
+   pool-mgr

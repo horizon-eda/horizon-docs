@@ -32,5 +32,4 @@ gap. To route a diffpair, use the “Route diff. pair” tool.
 Screenshot
 ----------
 
-.. figure:: images/imp-brd.png
-   :alt: imp-brd
+.. image:: images/imp-brd.png
