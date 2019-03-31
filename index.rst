@@ -7,7 +7,15 @@ Welcome to horizon-eda's documentation!
 =======================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    feature_overview
+   imp
+   imp-board
+   imp-sch
+   build-win32
+   build-linux
+   rules
+   create-package
+   copy-layout-placement
