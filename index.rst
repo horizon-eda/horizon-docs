@@ -1,16 +1,15 @@
-.. horizon-eda documentation master file, created by
-   sphinx-quickstart on Sat Mar 30 20:32:21 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to horizon-eda's documentation!
+Horizon EDA documentation
 =======================================
+
+Take a look at horizon's :doc:`top features <feature-overview>` or just :doc:`try it out <getting-started>`.
+
+.. image:: images/collage.png
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
-   feature_overview
+   feature-overview
    imp
    imp-board
    imp-sch
