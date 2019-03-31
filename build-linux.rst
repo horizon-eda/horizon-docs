@@ -45,6 +45,13 @@ On Fedora 25/26/27:
       gtkmm30-devel libgit2-devel libuuid-devel yaml-cpp-devel sqlite-devel librsvg2-devel\
       cairomm-devel glm-devel boost-devel libcurl-devel
 
+On FreeBSD 12:
+
+::
+
+   sudo pkg install git gmake pkgconf e2fsprogs-libuuid sqlite3 yaml-cpp \
+      gtkmm30 cppzmq libgit2 boost-libs glm opencascade
+
 Build it
 --------
 
