@@ -22,6 +22,7 @@ Make sure you got these dependencies installed:
 -  curl
 -  opencascade / opencascade community edition
 -  zeromq with C++ bindings: https://github.com/zeromq/cppzmq
+-  podofo
 
 On Ubuntu ≥17.04 run:
 
@@ -29,13 +30,14 @@ On Ubuntu ≥17.04 run:
 
    sudo apt install libyaml-cpp-dev libsqlite3-dev util-linux librsvg2-dev \
        libcairomm-1.0-dev libepoxy-dev libgtkmm-3.0-dev uuid-dev libboost-dev \
-       libzmq5 libzmq3-dev libglm-dev libgit2-dev libcurl4-gnutls-dev liboce-ocaf-dev 
+       libzmq5 libzmq3-dev libglm-dev libgit2-dev libcurl4-gnutls-dev liboce-ocaf-dev \
+       libpodofo-dev
 
 On Arch Linux:
 
 ::
 
-   sudo pacman -S yaml-cpp zeromq gtkmm3 cairomm librsvg sqlite3 libgit2 curl opencascade boost glm
+   sudo pacman -S yaml-cpp zeromq gtkmm3 cairomm librsvg sqlite3 libgit2 curl opencascade boost glm podofo
 
 On Fedora 25/26/27:
 
@@ -43,14 +45,14 @@ On Fedora 25/26/27:
 
    sudo dnf install git make gcc gcc-c++ pkg-config cppzmq-devel OCE-devel\
       gtkmm30-devel libgit2-devel libuuid-devel yaml-cpp-devel sqlite-devel librsvg2-devel\
-      cairomm-devel glm-devel boost-devel libcurl-devel
+      cairomm-devel glm-devel boost-devel libcurl-devel podofo-devel
 
 On FreeBSD 12:
 
 ::
 
    sudo pkg install git gmake pkgconf e2fsprogs-libuuid sqlite3 yaml-cpp \
-      gtkmm30 cppzmq libgit2 boost-libs glm opencascade
+      gtkmm30 cppzmq libgit2 boost-libs glm opencascade podofo
 
 Build it
 --------

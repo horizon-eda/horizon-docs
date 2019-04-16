@@ -39,7 +39,8 @@ Type/paste
    mingw-w64-x86_64-yaml-cpp mingw-w64-x86_64-boost \
    mingw-w64-x86_64-sqlite3  mingw-w64-x86_64-toolchain  \
    mingw-w64-x86_64-zeromq mingw-w64-x86_64-glm zip \
-   mingw-w64-x86_64-libgit2 mingw-w64-x86_64-oce --needed
+   mingw-w64-x86_64-libgit2 mingw-w64-x86_64-oce \
+   mingw-w64-x86_64-podofo --needed
 
 When prompted, just hit return. Sit back and wait for it to install
 what’s almost a complete linux environment.
