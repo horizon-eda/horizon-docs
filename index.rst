@@ -25,3 +25,4 @@ Take a look at horizon's :doc:`top features <feature-overview>` or just :doc:`tr
    theory-of-operation
    pool
    pool-mgr
+   backannotation
