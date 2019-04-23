@@ -4,7 +4,7 @@ Feature overview
 Sane and simple part management
 -------------------------------
 
-Easily manage parts, packages and symbols with the pool manager:
+Easily manage parts, packages and symbols with the :doc:`pool manager <pool-mgr>` (also see :doc:`What is a Pool? <pool-why>`):
 
 .. image:: images/pool-mgr.png
 
@@ -23,6 +23,13 @@ Simply add pins as they're listed in the datasheet:
 Horizon also ships with script templates for importing industry-standard
 formats like IBIS saving you the tedious work of typing what's in the
 datasheet.
+
+Loves beginners and power users alike
+-------------------------------------
+
+Just press the spacebar and get a list of all the actions you can perform. These actions can be bound to customizible single key shortcuts or to vim-like multi key sequences.
+
+.. image:: images/spacebar_board.gif
 
 A schematic editor that knows what you're doing
 -----------------------------------------------
@@ -83,6 +90,17 @@ explode slider, you can pull the layers apart.
 
 .. image:: images/3d.png
 
+Customizable color schemes for both schematic and board editors
+---------------------------------------------------------------
+
+Decoration affects people, and people are different – do your own thing or select from the existing color schemes.
+
+.. image:: images/colorscheme1.png
+.. image:: images/colorscheme2.png
+.. image:: images/colorscheme3.png
+.. image:: images/colorscheme4.png
+.. image:: images/colorscheme5.png
+
 There's much more
 -----------------
 
@@ -92,3 +110,8 @@ There's much more
 -  Filled planes
 -  Differential pair routing
 -  Arbitrary pad shapes
+-  Import DXF Artwork
+-  Export a Bill of Materials (BOM)
+
+
+Next: :doc:`Goals and Non-Goals<goals-and-non-goals>`
