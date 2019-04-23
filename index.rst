@@ -1,7 +1,10 @@
 Horizon EDA documentation
-=======================================
+=========================
 
-Take a look at horizon's :doc:`top features <feature-overview>` or just :doc:`try it out <getting-started>`.
+Horizon EDA is a **Electronics Design Application** similar to tools like `KiCAD_` or `LibrePCB_`. It allows you to draw schematics, layout circuit boards and comfortably manage a parts collection. 
+
+Take a look at horizon's :doc:`top features <feature-overview>`, just :doc:`try it out <installation>` or begin by :doc:`reading from the start<why-another-eda-package>`.
+
 
 .. image:: images/collage.png
 
@@ -9,22 +12,34 @@ Take a look at horizon's :doc:`top features <feature-overview>` or just :doc:`tr
    :maxdepth: 1
    :caption: About:
 
+   why-another-eda-package
    feature-overview
+   goals-and-non-goals
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Getting Started:
 
-   getting-started
+   installation
+   pool-setup
+   new-project
+   draw-schematic
+   create-board
+   example-project
 
 .. toctree::
    :maxdepth: 1
    :caption: Basic Editor Usage:
 
-   imp
+   tools
+   spacebar-menu
+   grid
+   drawing
+   selection
+   move
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Schematic Editor:
 
    imp-sch
@@ -40,13 +55,15 @@ Take a look at horizon's :doc:`top features <feature-overview>` or just :doc:`tr
 
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Pool Manager:
+   :maxdepth: 2
+   :caption: Pool:
 
-   pool
+   pool-why
+   pool-elements
    pool-mgr
-   padstacks
    create-package
+   pool-contribute
+   
 
 
 .. toctree::
