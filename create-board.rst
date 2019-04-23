@@ -48,6 +48,10 @@ To route tracks between the parts you connected in the Schematic, type :kbd:`x` 
 
    <video autoplay loop muted src="_static/draw-track.mp4"></video>  
 
+The track will always be routed on the layer you have selected, you can quickly select the Top Copper Layer by pressing :kbd:`1` and the Bottom Copper Layer by pressing :kbd:`2`. 
+
+If you want to change sides in the middle of a track you can place a via by pressing :kbd:`v` and then the number of the layer you want to continue.
+
 
 
 Once you are done, check out the 3D view of your part, and export Gerbers using the menu point "Fabrication Output" in the application menu.
