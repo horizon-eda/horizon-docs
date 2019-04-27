@@ -46,9 +46,9 @@ The "Draw arc" tool is straightforward it draws line arcs by setting three point
 Draw Polygon
 ~~~~~~~~~~~~
 
-.. image:: images/draw-polygon-with-arc.gif
+.. image:: images/draw_polygon_with_arc.gif
 
-When drawing polygons with :kbd:`d y` you can set a series of points by clicking, until you either press :kbd:`Esc` or use the right mouse button. You can make the next edge of the polygon an arc by pressing :kbd:`a`. Note that here you have to set the center point first, then you can flip the arc direction with :kbd:`e` and finally you set the end point of the arc.
+When drawing polygons with :kbd:`d y` you can set a series of points by clicking, until you either press :kbd:`Esc` or use the right mouse button. You can make the next edge of the polygon an arc by pressing :kbd:`a`. Just like with the "Draw Arc" tool set the endpoint first and the center point after. Before setting the center point you can flip the arc direction with :kbd:`e` and finally you set the end point of the arc.
 
 Draw Polygon Rectangle
 ~~~~~~~~~~~~~~~~~~~~~~
