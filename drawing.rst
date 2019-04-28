@@ -81,6 +81,8 @@ Draw Dimension
 
 Sometimes it can be useful to add dimension information to certain parts. You can do so by using the "Draw dimension" ActToolion. Start it by typing :kbd:`d d`, selecting the first and the second point and dragging it out. If the numeric value is on the wrong side, you can fix it by selecting the dimension and flipping it with the :kbd:`e` key.
 
+Dimensions can also be set to specified length by selecting the end that's supposed to move and activating the "Enter Datum" tool (press Enter). You can then snap other items to the end points of the dimension.
+
 
 
 

@@ -29,6 +29,7 @@ Selection Filter
 
 If you have to select many things, it can sometimes be handy to only select certain classes of objects. This is what the selection filter is for. You can open it up via the spacebar menu or by pressing :kbd:`Ctrl+i`
 
+Double click on an item to select only that item. Click on the check mark button on the top left to select all items.
 
 
 

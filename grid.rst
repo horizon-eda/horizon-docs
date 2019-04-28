@@ -7,9 +7,10 @@ You can change the size of the grid by changing the value in the numeric field o
 
 .. image:: images/grid.gif
 
-You can enter basic math operations into *any* numeric field in horizon, this makes it easy to divide a value by two, multiplying something by a certain factor, or adding a value to a coordinate to create a fixed offset.
+You can enter basic math operations into *any* numeric field in horizon, this makes it easy to divide a value by two, multiplying something by a certain factor, or adding a value to a coordinate to create a fixed offset. For more details, see :doc:`Numeric entries<entries>`.
 
 You can change the appearance of the grids and the cursor in the Preferences:
+
 .. image:: images/board-appearance.png
 
 

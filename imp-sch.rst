@@ -2,11 +2,12 @@ Schematic Editor
 ================
 
 To launch the schematic editor click on “Top Schematic” in the project
-manager. Same as all other graphical editors, horizon’s schematic editor
-is based on :doc:`imp`. To place parts, either use the “place part” tool or the
-part browser in the project manager. The latter is much more convenient
-since it can be kept open permanently. Start drawing nets by hitting the
-‘n’ key.
+manager. 
+
+Placing parts
+------------
+
+To place parts, open the part browser either by typing :kbd:`p p` (place part) or clicking on the corresponding icon in the project manager. Once a part has been placed, it can be replaced by a part of the same entity by selecting it and using the "Assign part" button in the part browser window.
 
 Nets and net segments
 ---------------------
