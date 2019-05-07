@@ -47,6 +47,14 @@ On Fedora 25/26/27:
       gtkmm30-devel libgit2-devel libuuid-devel yaml-cpp-devel sqlite-devel librsvg2-devel\
       cairomm-devel glm-devel boost-devel libcurl-devel podofo-devel
 
+On openSUSE Tumbleweed:
+
+::
+
+   sudo zypper in git make gcc gcc-c++ pkg-config cppzmq-devel oce-devel\
+      gtkmm3-devel libgit2-devel libuuid-devel yaml-cpp-devel sqlite3-devel librsvg-devel\
+      cairomm-devel glm-devel boost-devel libcurl-devel libpodofo-devel binutils-gold
+
 On FreeBSD 12:
 
 ::
