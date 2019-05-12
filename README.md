@@ -1,4 +1,4 @@
-This is the documentation repository for [horizon EDA](https://github.com/carrotIndustries/horizon).
+This is the documentation repository for [horizon EDA](https://github.com/horizon-eda/horizon).
 
 Rendered output is available on [Read the Docs](https://horizon-eda.readthedocs.io/).
 

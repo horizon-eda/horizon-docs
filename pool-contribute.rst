@@ -1,7 +1,7 @@
 Contribute to the Pool
 ======================
 
-The official pool at `https://github.com/carrotIndustries/horizon-pool/ <https://github.com/carrotIndustries/horizon-pool/>`__ lives from it's user
+The official pool at `https://github.com/horizon-eda/horizon-pool/ <https://github.com/horizon-eda/horizon-pool/>`__ lives from it's user
 contributions. There are multiple ways you can help. The most obvious one is
 by submitting parts you made.
 

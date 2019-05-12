@@ -35,5 +35,5 @@ Naturally a pool with a focus on composition is organized using tags instead of 
 
 Although you can create your own pool, you are strongly encouraged to use the pool
 over at
-`https://github.com/carrotIndustries/horizon-pool/ <https://github.com/carrotIndustries/horizon-pool/>`__.
+`https://github.com/horizon-eda/horizon-pool/ <https://github.com/horizon-eda/horizon-pool/>`__.
 To add new parts to it, simply submit a merge request. See also: :doc:`Contribute to the Pool <pool-contribute>`

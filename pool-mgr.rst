@@ -108,7 +108,7 @@ specify only needs to meet two requirements:
 -  The file has to end in ``.json``
 
 To get an idea of how all this looks in practice, take a look at `the
-pool <https://github.com/carrotIndustries/horizon-pool/>`__
+pool <https://github.com/horizon-eda/horizon-pool/>`__
 
 The Pool database
 -----------------
