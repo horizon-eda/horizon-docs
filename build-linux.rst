@@ -23,6 +23,7 @@ Make sure you got these dependencies installed:
 -  opencascade / opencascade community edition
 -  zeromq with C++ bindings: https://github.com/zeromq/cppzmq
 -  podofo
+-  libzip
 
 On Ubuntu ≥17.04 run:
 
@@ -37,7 +38,8 @@ On Arch Linux:
 
 ::
 
-   sudo pacman -S yaml-cpp zeromq gtkmm3 cairomm librsvg sqlite3 libgit2 curl opencascade boost glm podofo
+   sudo pacman -S yaml-cpp zeromq gtkmm3 cairomm librsvg sqlite3 libgit2 curl \
+        opencascade boost glm podofo libzip
 
 On Fedora 25/26/27:
 
@@ -60,7 +62,7 @@ On FreeBSD 12:
 ::
 
    sudo pkg install git gmake pkgconf e2fsprogs-libuuid sqlite3 yaml-cpp \
-      gtkmm30 cppzmq libgit2 boost-libs glm opencascade podofo
+      gtkmm30 cppzmq libgit2 boost-libs glm opencascade podofo libzip
 
 Build it
 --------
