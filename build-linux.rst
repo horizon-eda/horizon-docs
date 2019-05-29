@@ -55,7 +55,7 @@ On openSUSE Tumbleweed:
 
    sudo zypper in git make gcc gcc-c++ pkg-config cppzmq-devel oce-devel\
       gtkmm3-devel libgit2-devel libuuid-devel yaml-cpp-devel sqlite3-devel librsvg-devel\
-      cairomm-devel glm-devel boost-devel libcurl-devel libpodofo-devel binutils-gold
+      cairomm-devel glm-devel boost-devel libcurl-devel libpodofo-devel binutils-gold libzip-devel
 
 On FreeBSD 12:
 
