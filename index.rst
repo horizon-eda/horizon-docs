@@ -77,4 +77,5 @@ Take a look at horizon's :doc:`top features <feature-overview>`, just :doc:`try 
    parameter-programs
    theory-of-operation
    cli-usage
+   python
 
