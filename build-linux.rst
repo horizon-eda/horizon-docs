@@ -32,7 +32,7 @@ On Ubuntu ≥17.04 run:
    sudo apt install libyaml-cpp-dev libsqlite3-dev util-linux librsvg2-dev \
        libcairomm-1.0-dev libepoxy-dev libgtkmm-3.0-dev uuid-dev libboost-dev \
        libzmq5 libzmq3-dev libglm-dev libgit2-dev libcurl4-gnutls-dev liboce-ocaf-dev \
-       libpodofo-dev
+       libpodofo-dev libzip-dev
 
 On Arch Linux:
 
