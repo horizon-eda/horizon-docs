@@ -14,7 +14,7 @@ Take a look at horizon's :doc:`top features <feature-overview>`, just :doc:`try 
 
    why-another-eda-package
    feature-overview
-   goals-and-non-goals
+   non-goals
 
 .. toctree::
    :maxdepth: 2
