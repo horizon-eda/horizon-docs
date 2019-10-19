@@ -54,7 +54,7 @@ Clone horizon
 
 ::
 
-   git clone http://github.com/carrotIndustries/horizon
+   git clone http://github.com/horizon-eda/horizon
    cd horizon
 
 Build it

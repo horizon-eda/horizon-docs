@@ -2,12 +2,10 @@ Board Editor
 ============
 
 To launch the schematic editor click on “Board” in the project manager.
-Same as all other graphical editors, horizon’s board editor is based on
-:doc:`imp` 
 
 The board editor keeps an internal copy of the netlist. To update the
-netlist, hit ‘Save" in the schematic editor for writing the netlist to
-disk, then click on ’reload netlist’ or re-open the board editor.
+netlist, click "Save" in the schematic editor for writing the netlist to
+disk, then click on ’reload netlist’ or re-open the board editor or use the action "Save and reload netlist" in the the schematic editor.
 
 Planes
 ------
