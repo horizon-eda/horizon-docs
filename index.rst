@@ -1,9 +1,9 @@
 Horizon EDA documentation
 =========================
 
-Horizon EDA is a **Electronics Design Application** similar to tools like `KiCAD_` or `LibrePCB_`. It allows you to draw schematics, layout circuit boards and comfortably manage a parts collection. 
+Horizon EDA is a **Electronics Design Application** supporting an integrated end-to-end workflow for printed circuit board design including parts management and schematic entry. 
 
-Take a look at horizon's :doc:`top features <feature-overview>`, just :doc:`try it out <installation>` or begin by :doc:`reading from the start<why-another-eda-package>`.
+Take a look at the :doc:`top features <feature-overview>`, just :doc:`try it out <installation>` or begin by :doc:`reading from the start<why-another-eda-package>`.
 
 
 .. image:: images/collage.png
