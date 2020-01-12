@@ -56,7 +56,8 @@ Interactive router with online DRC
 ----------------------------------
 
 By using the interactive router originally developed for KiCad, routing
-tracks becomes a breeze. Of course, it respects your design rules.
+tracks becomes a breeze. Of course, it respects your design rules. 
+Routing differential pairs is supported as well.
 
 .. image:: images/routing.png
 
@@ -73,6 +74,46 @@ in which place:
 
 .. image:: images/drc.png
 
+Multithreaded DRC makes use of all CPU cores:
+
+.. image:: images/drc-mt.png
+
+Interactive length tuning
+-------------------------
+
+Interactively measure and tune individual tracks, differential pairs or 
+buses: 
+
+.. image:: images/length-tuning.png
+
+
+Parametric Search
+-----------------
+
+Parametric part search helps you to quickly find passives:
+
+.. image:: images/param.png
+
+Stock information
+-----------------
+
+Real-time stock information powered by `Kitspace's partinfo 
+<https://github.com/kitspace/partinfo>`_:
+
+.. image:: images/partinfo.png
+
+Smart Head-up Display
+---------------------
+
+Instantly know what you're looking at with direct link to datasheets:
+
+.. image:: images/hud.png
+
+Measures pad distance and much more:
+
+.. image:: images/hud2.png
+
+
 Industry-standard fabrication outputs
 -------------------------------------
 
@@ -82,16 +123,26 @@ industry-standard RS-274X gerber and NC-Drill files:
 .. image:: images/fab-out.png
 
 
-3D View
--------
+Mechanical CAD integration
+--------------------------
 
-Look at your board as if you were holding it in your hands. Using the
-explode slider, you can pull the layers apart.
+Extend packages into the 3rd dimension by adding a 3D model in
+industry-standard STEP format:
+
+.. image:: images/3d-pkg.png
+
+Look at your board as if you were holding it in your hands to make sure 
+everything fits as intended:
 
 .. image:: images/3d.png
 
-Customizable color schemes for both schematic and board editors
----------------------------------------------------------------
+When the design is done, export the board and all models as STEP file 
+for use in mechanical CAD:
+
+.. image:: images/mcad.png
+
+Make it yours
+-------------
 
 Decoration affects people, and people are different – do your own thing or select from the existing color schemes.
 
@@ -101,17 +152,15 @@ Decoration affects people, and people are different – do your own thing or sel
 .. image:: images/colorscheme4.png
 .. image:: images/colorscheme5.png
 
+Keyboard shortcuts are fully customizable as well.
+
 There's much more
 -----------------
 
 -  OpenGL-accelerated rendering
--  Unlimited undo/redo
+-  Undo/redo
 -  Copy/paste, even between instances
 -  Filled planes
--  Differential pair routing
 -  Arbitrary pad shapes
 -  Import DXF Artwork
 -  Export a Bill of Materials (BOM)
-
-
-Next: :doc:`Goals and Non-Goals<goals-and-non-goals>`
