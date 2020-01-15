@@ -24,6 +24,17 @@ Horizon also ships with script templates for importing industry-standard
 formats like IBIS saving you the tedious work of typing what's in the
 datasheet.
 
+Easy package creation
+---------------------
+
+Get a head start on creating packages by choosing from over 20
+IPC-compliant footprint presets:
+
+.. image:: images/fp-gen.png
+
+Importing KiCad footprints is supported as well.
+
+
 Loves beginners and power users alike
 -------------------------------------
 
