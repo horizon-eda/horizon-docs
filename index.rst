@@ -1,7 +1,7 @@
 Horizon EDA documentation
 =========================
 
-Horizon EDA is an **Electronics Design Automation** package supporting an integrated end-to-end workflow for printed circuit board design including parts management and schematic entry. 
+Horizon EDA is an **Electronic Design Automation** package supporting an integrated end-to-end workflow for printed circuit board design including parts management and schematic entry. 
 
 Take a look at the :doc:`top features <feature-overview>`, just :doc:`try it out <installation>` or begin by :doc:`reading from the start<why-another-eda-package>`.
 
