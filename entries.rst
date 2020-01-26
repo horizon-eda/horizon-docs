@@ -7,7 +7,7 @@ They look like these:
 
 .. image:: images/entry.png
 
-Both point and comma are recognized as a decimal separator regardless of locale settings. By default all numbers are treated as millimeters. Suffixing a number with an ``i`` will treat it as inches. 
+Both point and comma are recognized as a decimal separator regardless of locale settings. By default all numbers are treated as millimeters. Suffixing a number with an ``i`` or ``in`` will treat it as inches. Use ``mi`` or ``mil`` to convert from thous.
 
 Additionally, two-operand infix math is supported, so you can to this:
 
@@ -20,3 +20,5 @@ Multiplication: ``3*2``
 Division: ``3/2``
 
 Average :math:`\frac{ a+b }{2}`: ``3|2``
+
+Adding mm and inch: ``1in+2mm``
