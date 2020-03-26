@@ -6,7 +6,7 @@ Parts of Horzion EDA are available as a python module for use in scripts.
 Installation
 ~~~~~~~~~~~~
 
-The python module isn't included in the :code:`all` target.  To build it, run :code:`make horizon.so`. This requires the python 3 headers to be installed. You can then place it in python's :code:`sys.path` and import it using :code:`import horizon`.
+The python module isn't included in the :code:`all` target.  To build it, run :code:`make build/horizon.so`. This requires the python 3 headers to be installed. You can then place it in python's :code:`sys.path` and import it using :code:`import horizon`.
 
 Usage
 ~~~~~
