@@ -39,4 +39,9 @@ Usage
 	gerber_settings["output_directory"] = "/tmp/gerber"
 	brd.export_gerber(gerber_settings)
 
+	#export pick&place
+	pnp_settings = brd.get_pnp_export_settings()
+	pnp_settings["output_directory"] = "/tmp/pnp"
+	brd.export_pnp(pnp_settings)
+
 To further adjust the export settings, have a look at the dicts returned by the :code:`get_*_export_settings` methods.
