@@ -44,4 +44,16 @@ Usage
 	pnp_settings["output_directory"] = "/tmp/pnp"
 	brd.export_pnp(pnp_settings)
 
+	#export STEP
+	step_settings = brd.get_step_export_settings()
+	step_settings["filename"] = "/tmp/pca.step"
+	brd.export_step(step_settings)
+
+	#run DRC
+	rules=brd.get_rules()
+	#modify rules if needed
+	rule_ids = brd.get_rule_ids()
+	#if needed, remove unneeded checks from rule_ids
+	result = brd.run_checks(rules, ids)
+
 To further adjust the export settings, have a look at the dicts returned by the :code:`get_*_export_settings` methods.
