@@ -1,5 +1,5 @@
 Why a Pool?
-==========
+===========
 
 So what's all this Pool stuff anyhow? Many EDA packages organize
 packages, symbols and the like in libraries. These are often messy 

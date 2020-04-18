@@ -5,7 +5,7 @@ To launch the schematic editor click on “Top Schematic” in the project
 manager. 
 
 Placing parts
-------------
+-------------
 
 To place parts, open the part browser either by typing :kbd:`p p` (place part) or clicking on the corresponding icon in the project manager. Once a part has been placed, it can be replaced by a part of the same entity by selecting it and using the "Assign part" button in the part browser window.
 
