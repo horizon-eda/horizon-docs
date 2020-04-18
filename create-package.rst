@@ -23,7 +23,7 @@ Pads
 ----
 
 Each pad is defined by its padstack and parameters applied to the
-padstack. For details on padstacks see [[here|Padstacks]]. Since the
+padstack. For details on padstacks see :ref:`here<Padstacks>`. Since the
 pads are probably a package’s most important feature, it’s makes sense
 to start with these. You can either place pads manually using the “Place
 pad” tool or have them placed automatically according to commonly used

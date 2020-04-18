@@ -22,7 +22,7 @@ Packages
 A Package defines the footprint of a part. If the part's manufacturer
 provides a reasonable footprint recommendation, use this one. Only use
 generic packages if there isn't any. For details on packages see
-[[here|Creating-a-Package]].
+:doc:`create-package`.
 
 Entities
 ~~~~~~~~
@@ -51,6 +51,8 @@ Symbols
 A symbol is used in the schematic to represent a unit. Contrary to other
 EDA applications, a symbol just displays the pins from its unit and
 doesn't define these.
+
+.. _Padstacks:
 
 Padstacks
 ~~~~~~~~~
