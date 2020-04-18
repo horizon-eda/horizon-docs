@@ -1,0 +1,68 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../layers.rst:2
+msgid "Layers"
+msgstr ""
+
+#: ../../layers.rst:4
+msgid ""
+"Board, package and padstack editor use the widget shown below to specify "
+"how layers are displayed."
+msgstr ""
+
+#: ../../layers.rst:8
+msgid ""
+"The selected layer is called the \"work layer\" and is always visible and "
+"drawn on top of all other layers. Use :kbd:`Page up/down` to move the "
+"work layer to the next or previous layer. Pressing :kbd:`1` selects the "
+"\"Top Copper\" layer, :kbd:`2` selects the \"Bottom Copper\" layer, :kbd:"
+"`3 … 0` select inner layers if present."
+msgstr ""
+
+#: ../../layers.rst:11
+msgid ""
+"Clicking on the eye toggles a layer's visibility. Keep in mind that the "
+"work layer is always visible even if it's set to be invisible."
+msgstr ""
+
+#: ../../layers.rst:13
+msgid "Clicking on the colored box cycles through a layer's display modes:"
+msgstr ""
+
+#: ../../layers.rst:15
+msgid ""
+"Solid color: Layer is drawn with outlines and fill, overlapping filled "
+"objects on the same layer will appear brighter."
+msgstr ""
+
+#: ../../layers.rst:16
+msgid ""
+"Solid color with black border: Layer is drawn just filled, overlapping "
+"objects look the same as non-overlapping ones."
+msgstr ""
+
+#: ../../layers.rst:17
+msgid "Black with colored border: Layer is drawn just with outlines."
+msgstr ""
+
+#: ../../layers.rst:18
+msgid "Striped: Same as first, but areas are striped rather than filled."
+msgstr ""

@@ -1,0 +1,115 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../draw-schematic.rst:2
+msgid "Draw a Schematic"
+msgstr ""
+
+#: ../../draw-schematic.rst:4
+msgid ""
+"In the Project Manager click on the Top Schematic button, to open the "
+"Schematic editor:"
+msgstr ""
+
+#: ../../draw-schematic.rst:9
+msgid "Placing Parts"
+msgstr ""
+
+#: ../../draw-schematic.rst:11
+msgid ""
+"You can then start placing parts by clicking the \"Place Part\" button in "
+"the top bar, or by simply typing :kbd:`p p` (remember it as \"Place Part"
+"\"). This opens the Part Browser, where you can search your whole pool "
+"for the Parts you need and place them on the schematic."
+msgstr ""
+
+#: ../../draw-schematic.rst:16
+msgid "Connecting Parts"
+msgstr ""
+
+#: ../../draw-schematic.rst:18
+msgid ""
+"Once you placed parts you can activate the \"Draw net line\" tool by "
+"typing :kbd:`n` and drawing the connections. You can also simply drag out "
+"a pin and beginn connecting pins:"
+msgstr ""
+
+#: ../../draw-schematic.rst:23
+msgid "Basic Movement"
+msgstr ""
+
+#: ../../draw-schematic.rst:25
+msgid ""
+"You can move parts and nets by selecting them and typing :kbd:`m` or by "
+"using the :kbd:`←/↑/↓/→` arrow keys. Rotate with :kbd:`r` and mirror "
+"with :kbd:`e`"
+msgstr ""
+
+#: ../../draw-schematic.rst:27
+msgid ""
+"If you forget any of these keys, just press :kbd:`Spacebar` to open the :"
+"doc:`Spacebar Menu <spacebar-menu>` and search for the command you are "
+"looking for."
+msgstr ""
+
+#: ../../draw-schematic.rst:30
+msgid "Power Nets"
+msgstr ""
+
+#: ../../draw-schematic.rst:31
+msgid ""
+"Because Circuits make much more sense if you use power nets you can "
+"create new power nets by clicking on the entry in the application menu:"
+msgstr ""
+
+#: ../../draw-schematic.rst:35
+msgid ""
+"In the window that pops up press the \"Add power net\" button, give the "
+"net a name and select a symbol style."
+msgstr ""
+
+#: ../../draw-schematic.rst:37
+msgid ""
+"Place power nets with the \"Place power symbol\" Tool (type :kbd:`p o`)."
+msgstr ""
+
+#: ../../draw-schematic.rst:40
+msgid "Annotation"
+msgstr ""
+
+#: ../../draw-schematic.rst:41
+msgid ""
+"Run the Annotation Tool to give all un-annotated parts (signified by the "
+"\"?\" in their reference designator) a propper number. So we go from this:"
+msgstr ""
+
+#: ../../draw-schematic.rst:45
+msgid "to this:"
+msgstr ""
+
+#: ../../draw-schematic.rst:51
+msgid ""
+"Once you are done, click on \"Save\" so you can start to layout the "
+"schematic you just created."
+msgstr ""
+
+#: ../../draw-schematic.rst:53
+msgid "Next: :doc:`Create a Board <create-board>`"
+msgstr ""

@@ -1,0 +1,74 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../tools.rst:2
+msgid "Tools"
+msgstr ""
+
+#: ../../tools.rst:4
+msgid ""
+"In order to provide a unified user experience and enable code reuse, the "
+"editors for symbols, schematic, padstack, package and board are all based "
+"on the interactive manipulator."
+msgstr ""
+
+#: ../../tools.rst:9
+msgid "How to select the right tool"
+msgstr ""
+
+#: ../../tools.rst:11
+msgid ""
+"To edit the things on screen, use the tools. Tools can be started in "
+"multiple ways:"
+msgstr ""
+
+#: ../../tools.rst:14
+msgid ""
+"By typing in the tool's key sequence. Available key sequences are listed "
+"by clicking the help button in the top right corner or typing :kbd:`?`."
+msgstr ""
+
+#: ../../tools.rst:17
+msgid ""
+"By using the :doc:`Spacebar Menu<spacebar-menu>`. Just start typing for "
+"the tool you're looking for or browse through the list."
+msgstr ""
+
+#: ../../tools.rst:20
+msgid ""
+"By right clicking an object. This will bring up context menu listing all "
+"the tools relevant to what's selected."
+msgstr ""
+
+#: ../../tools.rst:22
+msgid "By pressing one of the dedicated buttons in the top bar."
+msgstr ""
+
+#: ../../tools.rst:24
+msgid ""
+"After having started a tool, it receives all keyboard and mouse input, "
+"till the tool is finished or you end it by pressing :kbd:`Esc`. Look at "
+"the bar that appeared at the bottom of the canvas to see what pressing "
+"keys will to in this particular tool."
+msgstr ""
+
+#: ../../tools.rst:28
+msgid "Next: :doc:`Basic Navigation: Spacebar Menu<spacebar-menu>`"
+msgstr ""

@@ -1,0 +1,115 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 19:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../installation.rst:2
+msgid "Installation"
+msgstr "Instalace"
+
+#: ../../installation.rst:4
+msgid "So you wanna give horizon a test drive? Great! Here's how."
+msgstr "Takže jste se rozhodli vyzkoušet Horizon-EDA? Skvěle! Zde je návod."
+
+#: ../../installation.rst:7
+msgid "Stable release"
+msgstr ""
+
+#: ../../installation.rst:9
+msgid "A known-good snapshot from ongoing development."
+msgstr ""
+
+#: ../../installation.rst:12 ../../installation.rst:36
+msgid "Windows"
+msgstr "Operační systém Windows"
+
+#: ../../installation.rst:14
+msgid ""
+"Download and run the MSI installer from `GitHub releases <https://github."
+"com/horizon-eda/horizon/releases>`_."
+msgstr ""
+
+#: ../../installation.rst:17 ../../installation.rst:46
+msgid "Linux"
+msgstr "Linux"
+
+#: ../../installation.rst:19
+msgid ""
+"Get the latest stable release from `Flathub <https://flathub.org/apps/"
+"details/org.horizon_eda.HorizonEDA>`_."
+msgstr ""
+
+#: ../../installation.rst:21
+msgid ""
+"If you want to compile it yourself, download the source tarball from "
+"`GitHub releases <https://github.com/horizon-eda/horizon/releases>`_ and "
+"follow the instructions in :doc:`build-linux`."
+msgstr ""
+
+#: ../../installation.rst:24
+msgid ""
+"For Arch Linux, there's an `AUR package <https://aur.archlinux.org/"
+"packages/horizon-eda>`_."
+msgstr ""
+
+#: ../../installation.rst:26
+msgid ""
+"Keep in mind that binary packages provided by your distribution might be "
+"out of date."
+msgstr ""
+
+#: ../../installation.rst:30
+msgid "Development version"
+msgstr ""
+
+#: ../../installation.rst:32
+msgid ""
+"Usually works, but might break occasionally, so use at your own risk. "
+"Recommended if you want to get the latest in features and bug fixes."
+msgstr ""
+
+#: ../../installation.rst:38
+msgid ""
+"Grab the latest build from `AppVeyor CI <https://ci.appveyor.com/project/"
+"carrotIndustries/horizon/build/artifacts>`_ and unzip it somewhere. Note "
+"that these are 64bit binaries. In case a build is still running or "
+"someone broke the build, you can download past builds from `the build "
+"history <https://ci.appveyor.com/project/carrotIndustries/horizon/"
+"history>`_ (click on artifacts to get the zip)"
+msgstr ""
+"Stáhnete nejnovější komprimovaný přeložený binární soubor z adresy "
+"`AppVeyor CI <https://ci.appveyor.com/project/carrotIndustries/horizon/"
+"build/artifacts>`_ a někam ho rozbalte. Pamatujte, že se jedná o 64bitové "
+"binární soubory. V případě, že překlad dosud probíhá  nebo ho někdo "
+"přerušil, si můžete stáhnout předešlé verze z `the build history <https://"
+"ci.appveyor.com/project/carrotIndustries/horizon/history>`_ (kliknutím na "
+"odkaz stáhnete soubor ve formátu zip)"
+
+#: ../../installation.rst:48
+#, fuzzy
+msgid ""
+"Clone the repository and see :doc:`build-linux` for instructions on how "
+"to build horizon on linux."
+msgstr ""
+"Viz kapitola :doc:`Sestavení (kompilace) programu na operačním systému "
+"Linux<build-linux>` v tomto návodě, jak zkompilovat program Horizon-EDA "
+"na linuxu."
+
+#: ../../installation.rst:52
+msgid "Next: :doc:`Setup a pool <pool-setup>`"
+msgstr ""

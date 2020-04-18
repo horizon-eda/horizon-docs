@@ -1,0 +1,95 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../non-goals.rst:2
+msgid "Non-Goals"
+msgstr ""
+"Cíle"
+
+#: ../../non-goals.rst:4
+msgid ""
+"To limit the project's focus, some things are explicitly out of scope."
+msgstr ""
+"Abychom zůžili zaměření projektu, některé věci zde záměrně nejsou."
+
+#: ../../non-goals.rst:7
+msgid "Autorouter"
+msgstr ""
+
+#: ../../non-goals.rst:9
+msgid ""
+"Writing a good autorouter is a lot of work that's more well spent on "
+"other aspects of the application as experience has show that an "
+"autorouter is rarely useful for small to medium-sized boards."
+msgstr ""
+
+#: ../../non-goals.rst:14
+msgid "Simulation"
+msgstr ""
+
+#: ../../non-goals.rst:16
+msgid ""
+"Schematic design for PCBs and schematic design for SPICE-type simulation "
+"are very different as in that schematics for simulation will often "
+"simplify aspects of the real world such as replacing an ADC input with "
+"it's equivalent circuit. On a personal side I'm perfectly happy with "
+"LTSpice in terms of user interface and SPICE core and don't see much "
+"scope for new developments in that space."
+msgstr ""
+
+#: ../../non-goals.rst:24
+msgid "Raytracer"
+msgstr ""
+
+#: ../../non-goals.rst:26
+msgid ""
+"Other EDA applications recently gained a custom raytracer for rendering "
+"pretty 3D visualisations of circuit boards. For horizon that's out of "
+"scope as the OpenGL-based 3D view is pretty enough for checking for the "
+"board for issues such as forgotten solder mask and getting an idea of "
+"what it'll look like assembled. Any more pretty visualisation is best "
+"taken care of by exporting to 3D modelling software such as blender."
+msgstr ""
+
+#: ../../non-goals.rst:35
+msgid "On File formats"
+msgstr ""
+
+#: ../../non-goals.rst:37
+msgid ""
+"Many people complain that there's no commonly agreed on standard format "
+"for schematics and boards in the industry. The file formats for these are "
+"application files formats, meaning that they'll need to support each and "
+"every knob and button the application has. Adopting another application's "
+"file format for horzion EDA would therefore result in horizon EDA being a "
+"bad clone of the other application."
+msgstr ""
+
+#: ../../non-goals.rst:44
+msgid ""
+"JSON has been chosen as a serialization format as it directly maps to "
+"common data structures such as maps and arrays (opposed to XML) and is "
+"easily manipulated in almost every environment."
+msgstr ""
+
+#: ../../non-goals.rst:49
+msgid "Next: :doc:`Installation<installation>`"
+msgstr ""
+
