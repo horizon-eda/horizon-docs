@@ -29,7 +29,7 @@ Add Planes
 If you want to use a Ground Plane now would be a good time to add it:
 
 1. Select the layer you want to have the plane on (Top- or Bottom-Copper)
-2. Draw a polygon rectangle by typing :kbd:`p Y`
+2. Draw a polygon rectangle by typing :kbd:`d Y`
 3. Right-Click one of the Edges of the newly added polygon and select "Add Plane"
 4. In the Window that pops up select the GND net (if it is not there you didn't add the power net in the Schematic)
 
