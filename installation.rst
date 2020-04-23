@@ -35,11 +35,8 @@ Recommended if you want to get the latest in features and bug fixes.
 Windows
 ^^^^^^^
 
-Grab the latest build from `AppVeyor CI <https://ci.appveyor.com/project/carrotIndustries/horizon/build/artifacts>`_ 
-and unzip it somewhere. Note that these are 64bit binaries. In case a
-build is still running or someone broke the build, you can download past
-builds from
-`the build history <https://ci.appveyor.com/project/carrotIndustries/horizon/history>`_
+Grab the latest build from `GitHub <https://github.com/horizon-eda/horizon/actions?query=branch%3Amaster+is%3Acompleted++>`_ 
+and unzip it somewhere. Note that these are 64bit binaries.
 (click on artifacts to get the zip)
 
 Linux
