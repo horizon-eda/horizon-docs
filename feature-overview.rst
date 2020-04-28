@@ -152,6 +152,28 @@ for use in mechanical CAD:
 
 .. image:: images/mcad.png
 
+
+Painless panelisation
+---------------------
+
+Easily arrange multiple copies of one board or multiple boards on one 
+panel to save money when ordering small PCBs:
+
+.. image:: images/panel.png
+
+All boards on a panel are linked to the original design, so they'll 
+update when the the original design changes.
+
+
+Versatile input device handling
+-------------------------------
+
+With Horizon EDA, you can make best use of modern laptop's pointing 
+devices. Apart from pixel-precision zooming and panning using 
+touchpads or trackpoints, you can directly manipulate 2D and 3D views 
+using touchscreen gestures such as pinch-to-zoom.
+
+
 Make it yours
 -------------
 
@@ -175,3 +197,4 @@ There's much more
 -  Arbitrary pad shapes
 -  Import DXF Artwork
 -  Export a Bill of Materials (BOM)
+-  Export pick&place files
