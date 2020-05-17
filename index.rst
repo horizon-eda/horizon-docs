@@ -15,6 +15,7 @@ Take a look at the :doc:`top features <feature-overview>`, just :doc:`try it out
    why-another-eda-package
    feature-overview
    non-goals
+   made-with
 
 .. toctree::
    :maxdepth: 2
