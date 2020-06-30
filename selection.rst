@@ -9,7 +9,7 @@ Basics
 .. image:: images/selection.gif
 
 Initially, the "hover select" mode is active. It simply selects the
-smallest object under the cursor. Leftclick or drag with the clicked button to select objects permanently. Hit :kbd:`Esc` or click into a blank space for returning to hover select mode.
+smallest object under the cursor. Leftclick or drag with the clicked button to select objects permanently. Hit :kbd:`Esc` for returning to hover select mode.
 
 If you want to select multiple things by clicking keep Hit :kbd:`Ctrl` pressed while you click on things – this also works to deselect things you accidentally selected while dragging a selection box.
 
