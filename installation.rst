@@ -16,14 +16,70 @@ Download and run the MSI installer from `GitHub releases <https://github.com/hor
 Linux
 ^^^^^
 
+Keep in mind that binary packages provided by your distribution might be out of date.
+
+Flatpak
+"""""""
+
 Get the latest stable release from `Flathub <https://flathub.org/apps/details/org.horizon_eda.HorizonEDA>`_.
 
-If you want to compile it yourself, download the source tarball from
-`GitHub releases <https://github.com/horizon-eda/horizon/releases>`_ and follow the instructions in :doc:`build-linux`.
+
+Debian, Ubuntu
+""""""""""""""
+
+Add bintray's key to the apt keyring:
+::
+
+   curl https://bintray.com/user/downloadSubjectPublicKey?username=bintray | apt-key add -
+
+Add one of these lines to ``/etc/apt/sources.list``:
+
+::
+
+    # Debian Buster
+    deb https://dl.bintray.com/horizon-eda/horizon-eda-buster horizon-eda-buster main
+
+    # Ubuntu Bionic (18.04)
+    deb https://dl.bintray.com/horizon-eda/horizon-eda-bionic horizon-eda-bionic main
+
+    # Ubuntu Focal (20.04)
+    deb https://dl.bintray.com/horizon-eda/horizon-eda-focal horizon-eda-focal main
+
+Update the apt cache:
+
+::
+
+    sudo apt-get update
+
+Install it:
+
+::
+    
+    # Debian Buster
+    sudo apt-get install -t horizon-eda-buster horizon-eda
+
+    # Ubuntu Bionic (18.04)
+    sudo apt-get install -t horizon-eda-bionic horizon-eda
+
+    # Ubuntu Focal (20.04)
+    sudo apt-get install -t horizon-eda-focal horizon-eda
+
+These packages are built from the `horizon-deb repo <https://github.com/horizon-eda/horizon-deb>`_ and are published on `bintray <https://bintray.com/horizon-eda>`_.
+
+
+
+Arch Linux
+""""""""""
 
 For Arch Linux, there's an `AUR package <https://aur.archlinux.org/packages/horizon-eda>`_.
 
-Keep in mind that binary packages provided by your distribution might be out of date.
+
+Build from source
+"""""""""""""""""
+
+
+If you want to compile it yourself, download the source tarball from
+`GitHub releases <https://github.com/horizon-eda/horizon/releases>`_ and follow the instructions in :doc:`build-linux`.
 
 
 Development version
