@@ -30,7 +30,7 @@ Debian, Ubuntu
 Add bintray's key to the apt keyring:
 ::
 
-   curl https://bintray.com/user/downloadSubjectPublicKey?username=bintray | apt-key add -
+   curl https://bintray.com/user/downloadSubjectPublicKey?username=bintray | sudo apt-key add -
 
 Add one of these lines to ``/etc/apt/sources.list``:
 
