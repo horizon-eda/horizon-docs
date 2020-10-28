@@ -79,4 +79,5 @@ Take a look at the :doc:`top features <feature-overview>`, just :doc:`try it out
    theory-of-operation
    cli-usage
    python
+   version
 
