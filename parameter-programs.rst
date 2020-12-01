@@ -109,7 +109,7 @@ it needs to be assigned a parameter class. ## set-shape
 form or moves it to the specified position Valid forms:
 
 -  ``rectangle``, pops height, width
--  ``circle``, pops diamater
+-  ``circle``, pops diameter
 -  ``obround``, pops height, width
 -  ``position``, pops y, x
 
