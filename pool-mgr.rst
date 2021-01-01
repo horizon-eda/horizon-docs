@@ -126,7 +126,7 @@ The Pool database
 -----------------
 
 The Pool keeps the metadata (filenames, UUIDs, names, etc.) in a SQLite
-database to facilitate searching. Normally, the pool manager rebuilds
-the database from scratch every time something has changed. However, if
-you externally manipulate/remove files, you'll have to click "Update
+database to facilitate searching. Normally, the pool manager updates
+the database every time a file in the pool is saved. However, if you
+externally manipulate/remove files, you'll have to click "Update
 Pool" for the database to include the changes you made.
