@@ -45,6 +45,9 @@ Add one of these lines to ``/etc/apt/sources.list``:
     # Ubuntu Focal (20.04)
     deb https://dl.bintray.com/horizon-eda/horizon-eda-focal horizon-eda-focal main
 
+    # Ubuntu Groovy (20.10)
+    deb https://dl.bintray.com/horizon-eda/horizon-eda-groovy horizon-eda-groovy main
+
 Update the apt cache:
 
 ::
@@ -63,6 +66,9 @@ Install it:
 
     # Ubuntu Focal (20.04)
     sudo apt-get install -t horizon-eda-focal horizon-eda
+
+    # Ubuntu Groovy (20.10)
+    sudo apt-get install -t horizon-eda-groovy horizon-eda
 
 These packages are built from the `horizon-deb repo <https://github.com/horizon-eda/horizon-deb>`_ and are published on `bintray <https://bintray.com/horizon-eda>`_.
 
