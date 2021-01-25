@@ -39,6 +39,9 @@ Add one of these lines to ``/etc/apt/sources.list``:
     # Debian Buster
     deb https://dl.bintray.com/horizon-eda/horizon-eda-buster horizon-eda-buster main
 
+    # Debian Bullseye
+    deb https://dl.bintray.com/horizon-eda/horizon-eda-bullseye horizon-eda-bullseye main
+
     # Ubuntu Bionic (18.04)
     deb https://dl.bintray.com/horizon-eda/horizon-eda-bionic horizon-eda-bionic main
 
@@ -60,6 +63,9 @@ Install it:
     
     # Debian Buster
     sudo apt-get install -t horizon-eda-buster horizon-eda
+
+    # Debian Bullseye
+    sudo apt-get install -t horizon-eda-bullseye horizon-eda
 
     # Ubuntu Bionic (18.04)
     sudo apt-get install -t horizon-eda-bionic horizon-eda
