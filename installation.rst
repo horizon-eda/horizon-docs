@@ -85,6 +85,15 @@ Arch Linux
 
 For Arch Linux, there's an `AUR package <https://aur.archlinux.org/packages/horizon-eda>`_.
 
+NixOS
+"""""
+
+Horizon EDA is `packaged for NixOS <https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/science/electronics/horizon-eda/default.nix>`_.
+
+::
+
+  nix-env -iA horizon-eda
+
 
 Build from source
 """""""""""""""""
