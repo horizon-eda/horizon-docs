@@ -94,6 +94,15 @@ Horizon EDA is `packaged for NixOS <https://github.com/NixOS/nixpkgs/blob/master
 
   nix-env -iA horizon-eda
 
+FreeBSD
+^^^^^^^
+
+Horizon EDA is available in the FreeBSD `ports <https://www.freshports.org/cad/horizon-eda/>`_.
+
+::
+
+  sudo pkg install horizon-eda
+
 
 Build from source
 """""""""""""""""
@@ -123,7 +132,13 @@ Linux
 ^^^^^
 
 Clone the repository and see :doc:`build-linux` for
-instructions on how to build horizon on linux.
+instructions on how to build horizon on Linux.
+
+FreeBSD
+^^^^^^^
+
+Clone the repository and see :doc:`build-freebsd` for
+instructions on how to build horizon on FreeBSD.
 
 
 Next: :doc:`Setup a pool <pool-setup>`

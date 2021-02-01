@@ -1,5 +1,5 @@
 Building on Linux
-===================
+=================
 
 Building horizon on Linux is as simple as ``make`` after you’ve cloned
 this repo.
@@ -56,19 +56,12 @@ On openSUSE Tumbleweed:
       gtkmm3-devel libgit2-devel libuuid-devel sqlite3-devel librsvg-devel\
       cairomm-devel glm-devel boost-devel libcurl-devel libpodofo-devel binutils-gold libzip-devel
 
-On FreeBSD 12:
-
-::
-
-   sudo pkg install git gmake pkgconf e2fsprogs-libuuid sqlite3 \
-      gtkmm30 cppzmq libgit2 boost-libs glm opencascade podofo libzip
-
 Build it
 --------
 
 ::
 
-   make -j 4
+   make -j 4 #adjust this to the number of CPU cores
 
 Running
 -------
@@ -80,4 +73,4 @@ directory:
 
 ::
 
-   ./horizon-eda
+   build/horizon-eda
