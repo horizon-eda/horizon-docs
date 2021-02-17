@@ -27,57 +27,14 @@ Get the latest stable release from `Flathub <https://flathub.org/apps/details/or
 Debian, Ubuntu
 """"""""""""""
 
-Add bintray's key to the apt keyring:
-::
+Debian builds are hosted by `packagecloud <https://packagecloud.io/>`_.
 
-   curl https://bintray.com/user/downloadSubjectPublicKey?username=bintray | sudo apt-key add -
-
-Add one of these lines to ``/etc/apt/sources.list``:
+First, follow the `instructions <https://packagecloud.io/horizon-eda/horizon-eda/install>`_ to add the repository.
+When done, you can install it using apt:
 
 ::
 
-    # Debian Buster
-    deb https://dl.bintray.com/horizon-eda/horizon-eda-buster horizon-eda-buster main
-
-    # Debian Bullseye
-    deb https://dl.bintray.com/horizon-eda/horizon-eda-bullseye horizon-eda-bullseye main
-
-    # Ubuntu Bionic (18.04)
-    deb https://dl.bintray.com/horizon-eda/horizon-eda-bionic horizon-eda-bionic main
-
-    # Ubuntu Focal (20.04)
-    deb https://dl.bintray.com/horizon-eda/horizon-eda-focal horizon-eda-focal main
-
-    # Ubuntu Groovy (20.10)
-    deb https://dl.bintray.com/horizon-eda/horizon-eda-groovy horizon-eda-groovy main
-
-Update the apt cache:
-
-::
-
-    sudo apt-get update
-
-Install it:
-
-::
-    
-    # Debian Buster
-    sudo apt-get install -t horizon-eda-buster horizon-eda
-
-    # Debian Bullseye
-    sudo apt-get install -t horizon-eda-bullseye horizon-eda
-
-    # Ubuntu Bionic (18.04)
-    sudo apt-get install -t horizon-eda-bionic horizon-eda
-
-    # Ubuntu Focal (20.04)
-    sudo apt-get install -t horizon-eda-focal horizon-eda
-
-    # Ubuntu Groovy (20.10)
-    sudo apt-get install -t horizon-eda-groovy horizon-eda
-
-These packages are built from the `horizon-deb repo <https://github.com/horizon-eda/horizon-deb>`_ and are published on `bintray <https://bintray.com/horizon-eda>`_.
-
+    sudo apt-get install horizon-eda-upstream
 
 
 Arch Linux
