@@ -27,6 +27,7 @@ Take a look at the :doc:`top features <feature-overview>`, just :doc:`try it out
    draw-schematic
    create-board
    example-project
+   digikey-api
 
 .. toctree::
    :maxdepth: 1
