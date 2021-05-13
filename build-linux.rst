@@ -24,7 +24,10 @@ Make sure you got these dependencies installed:
 -  podofo
 -  libzip
 
-On Ubuntu ≥17.04 run:
+The C++ compiler needs to support ``std::filesystem``, for GCC this
+requires version 8 or newer.
+
+On Ubuntu ≥18.04 run:
 
 ::
 
