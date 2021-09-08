@@ -58,6 +58,19 @@ On openSUSE Tumbleweed:
    sudo zypper in git make gcc gcc-c++ pkg-config cppzmq-devel oce-devel\
       gtkmm3-devel libgit2-devel libuuid-devel sqlite3-devel librsvg-devel\
       cairomm-devel glm-devel boost-devel libcurl-devel libpodofo-devel binutils-gold libzip-devel
+      
+On Solus:
+
+:: 
+
+   sudo eopkg it -c system.devel
+   
+::
+
+   sudo eopkg it git curl-devel libgtkmm-3-devel libgtkmm-3 librsvg librsvg-devel \
+       util-linux util-linux-devel sqlite3-devel sqlite3 libboost libboost-devel \
+       zeromq zeromq-devel glm cglm cglm-devel libgit2 libgit2-devel opencascade-ce \
+       opencascade-ce-devel podofo podofo-devel libzip libzip-devel cppzmq cppzmq-devel
 
 Build it
 --------
