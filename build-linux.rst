@@ -67,10 +67,9 @@ On Solus:
    
 ::
 
-   sudo eopkg it binutils-gold git curl-devel libgtkmm-3-devel libgtkmm-3 librsvg librsvg-devel \
-       util-linux util-linux-devel sqlite3-devel sqlite3 libboost libboost-devel \
-       zeromq zeromq-devel glm cglm cglm-devel libgit2 libgit2-devel opencascade-ce \
-       opencascade-ce-devel podofo podofo-devel libzip libzip-devel cppzmq cppzmq-devel
+   sudo eopkg it binutils-gold git glibc curl-devel libgtkmm-3-devel librsvg-devel \
+      util-linux-devel sqlite3-devel libboost-devel zeromq-devel glm libgit2-devel \
+      opencascade-ce-devel podofo-devel libzip-devel cppzmq-devel
 
 Build it
 --------
