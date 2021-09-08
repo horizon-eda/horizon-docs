@@ -59,6 +59,13 @@ Solus
 
     A package request to the official solus repository is filed. 
 
+
+.. warning::
+
+   The unofficial binary package is build with unstable-x86_64 profile. For a
+   build against stable main_x86_64 profile of Solus Shannon await successful
+   package acceptance to solus repository.
+
 For `Solus <https://getsol.us/home/>`_ you can download the binary from https://github.com/maikwoehl/horizon-eopkg/releases and install it with:
 
 ::
