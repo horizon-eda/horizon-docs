@@ -16,19 +16,19 @@ By Application version
 ----------------------
 
 .. csv-table::
-   :header: "Type", "1.3.0", "1.4.0"
+   :header: "Type", "1.3.0", "1.4.0", "2.0.0", "2.1.0"
 
-   Unit, 0, 0
-   Symbol, 0, 0
-   Entity, 0, 0
-   Padstack, 0, 0
-   Package, 0, 0
-   Part, 0, 0
-   Frame, 0, 0
-   Decal, 0, 0
-   Schematic, 0, 0
-   Board, 0, **2**
-   Project, 0, 0
+   Unit, 0, 0, 0, 0
+   Symbol, 0, 0, 0, 0
+   Entity, 0, 0, 0, 0
+   Padstack, 0, 0, 0, 0
+   Package, 0, 0, 0, 0
+   Part, 0, 0, **1**, 1
+   Frame, 0, 0, 0, 0
+   Decal, 0, 0, 0, 0
+   Schematic, 0, 0, **1**, 1
+   Board, 0, **2**, **4**, 4
+   Project, 0, 0, **1**, 1
 
 
 Changelog
@@ -40,3 +40,14 @@ changes will be listed here once they happen.
 Board:
   - 1: add holes to PDF export
   - 2: support pick & place export format customisation
+  - 3: add silkscreen color
+  - 4: add rule net class regex matching
+  
+Schematic:
+  - 1: Add custom values on symbols
+  
+Project:
+  - 1: Replace pool cache with project pool
+
+Part:
+  - 1: Add flags
