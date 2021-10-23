@@ -78,12 +78,9 @@ Recommended if you want to get the latest in features and bug fixes.
 Windows
 ^^^^^^^
 
-Grab the latest build from `AppVeyor CI <https://ci.appveyor.com/project/carrotIndustries/horizon/build/artifacts>`_ 
-and unzip it somewhere. Note that these are 64bit binaries. In case a
-build is still running or someone broke the build, you can download past
-builds from
-`the build history <https://ci.appveyor.com/project/carrotIndustries/horizon/history>`_
-(click on artifacts to get the zip)
+Grab the latest build from `Artifactory <https://horizoneda.jfrog.io/ui/repos/tree/General/horizon-win64-ci>`_
+and unzip it somewhere. Note that these are 64bit binaries. The
+download URL is also shown on GitHub Actions.
 
 Linux
 ^^^^^
