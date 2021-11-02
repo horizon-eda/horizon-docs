@@ -55,29 +55,12 @@ Horizon EDA is `packaged for NixOS <https://github.com/NixOS/nixpkgs/blob/master
 Solus
 """""
 
-.. note::
-
-    A package request to the official solus repository is filed. 
-
-
-.. warning::
-
-   The unofficial binary package is build with unstable-x86_64 profile. For a
-   build against stable main_x86_64 profile of Solus Shannon await successful
-   package acceptance to solus repository.
-
-For `Solus <https://getsol.us/home/>`_ you can download the binary from https://github.com/maikwoehl/horizon-eopkg/releases and install it with:
+For `Solus <https://getsol.us/home/>`_, the package is available at `Solus Repository <NOT YET INCLUDED>`_.
 
 ::
 
-  sudo eopkg install horizon-eda-*-.eopkg
+  sudo eopkg install horizon-eda
     
-Or as an alternative you can directly build the package yourself and install it:
-
-::
-
-  sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/maikwoehl/horizon-eopkg/v2.1.0/pspec_x86_64.xml
-  sudo eopkg it horizon-eda-*.eopkg; sudo rm horizon-eda-*.eopkg
 
 FreeBSD
 ^^^^^^^
