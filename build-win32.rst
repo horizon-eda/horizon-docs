@@ -36,7 +36,7 @@ Type/paste
 ::
 
    pacman -S mingw-w64-x86_64-gtkmm3 git base-devel \
-   mingw-w64-x86_64-boost \
+   mingw-w64-x86_64-boost mingw-w64-x86_64-curl \
    mingw-w64-x86_64-sqlite3  mingw-w64-x86_64-toolchain  \
    mingw-w64-x86_64-zeromq mingw-w64-x86_64-glm zip \
    mingw-w64-x86_64-libgit2 mingw-w64-x86_64-oce \
