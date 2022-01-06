@@ -16,19 +16,20 @@ By Application version
 ----------------------
 
 .. csv-table::
-   :header: "Type", "1.3.0", "1.4.0", "2.0.0", "2.1.0"
+   :header: "Type", "1.3.0", "1.4.0", "2.0.0", "2.1.0", "2.2.0"
 
-   Unit, 0, 0, 0, 0
-   Symbol, 0, 0, 0, 0
-   Entity, 0, 0, 0, 0
-   Padstack, 0, 0, 0, 0
-   Package, 0, 0, 0, 0
-   Part, 0, 0, **1**, 1
-   Frame, 0, 0, 0, 0
-   Decal, 0, 0, 0, 0
-   Schematic, 0, 0, **1**, 1
-   Board, 0, **2**, **4**, 4
-   Project, 0, 0, **1**, 1
+   Unit, 0, 0, 0, 0, 0
+   Symbol, 0, 0, 0, 0, 0
+   Entity, 0, 0, 0, 0, 0
+   Padstack, 0, 0, 0, 0, 0
+   Package, 0, 0, 0, 0, 0
+   Part, 0, 0, **1**, 1, **2**
+   Frame, 0, 0, 0, 0, 0
+   Decal, 0, 0, 0, 0, 0
+   Schematic, 0, 0, **1**, 1, **3**
+   Board, 0, **2**, **4**, 4, **7**
+   Project, 0, 0, **1**, 1, **2**
+   Pool, N/A, N/A, N/A, N/A, 0
 
 
 Changelog
@@ -38,16 +39,26 @@ As of Horizon EDA Version 1.3.0, all object types are at version 0. Any
 changes will be listed here once they happen.
 
 Board:
-  - 1: add holes to PDF export
-  - 2: support pick & place export format customisation
-  - 3: add silkscreen color
-  - 4: add rule net class regex matching
+  - 1: Add holes to PDF export
+  - 2: Support pick & place export format customisation
+  - 3: Add silkscreen color
+  - 4: Add rule net class regex matching
+  - 5: Add shorted pads rule
+  - 6: Add pads only flag to silkscreen exposed copper rule
+  - 7: Actually serialize from rules option for planes
   
 Schematic:
   - 1: Add custom values on symbols
-  
+  - 2: Add hierarchy
+  - 3: Add name orientation to block symbol ports
+
 Project:
   - 1: Replace pool cache with project pool
+  - 2: Add hierarchy
 
 Part:
   - 1: Add flags
+  - 2: Add prefix override
+
+Symbol:
+  - 1: Fix orientation-specifix text placement
