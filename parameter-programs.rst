@@ -121,6 +121,7 @@ shape Valid shapes:
 
 -  ``round``, pops diameter
 -  ``slot``, pops length, diameter
+-  ``position``, pops y, x
 
 Polygon commands (padstack and package)
 ---------------------------------------
