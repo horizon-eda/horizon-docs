@@ -19,7 +19,7 @@ By Application version
    :header: "Type", "1.3.0", "1.4.0", "2.0.0", "2.1.0", "2.2.0"
 
    Unit, 0, 0, 0, 0, 0
-   Symbol, 0, 0, 0, 0, 0
+   Symbol, 0, 0, 0, 0, **1**
    Entity, 0, 0, 0, 0, 0
    Padstack, 0, 0, 0, 0, 0
    Package, 0, 0, 0, 0, 0
