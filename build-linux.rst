@@ -23,6 +23,7 @@ Make sure you got these dependencies installed:
 *  zeromq with C++ bindings: https://github.com/zeromq/cppzmq
 *  podofo
 *  libzip
+*  libspnav (optional, for space navigator support)
 
 The C++ compiler needs to support ``std::filesystem``, for GCC this
 requires version 8 or newer.
@@ -77,6 +78,8 @@ Build it
 ::
 
    make -j 4 #adjust this to the number of CPU cores
+
+Add ``WITH_SPNAV=1`` to enable space navigator support.
 
 Running
 -------
