@@ -9,20 +9,20 @@ Install dependencies
 
 Make sure you got these dependencies installed:
 
--  Gtkmm3 ≥ 3.20
--  cairomm-pdf
--  librsvg
--  util-linux
--  sqlite
--  boost
--  zeromq
--  glm
--  libgit2
--  curl
--  opencascade / opencascade community edition
--  zeromq with C++ bindings: https://github.com/zeromq/cppzmq
--  podofo
--  libzip
+*  Gtkmm3 ≥ 3.20
+*  cairomm-pdf
+*  librsvg
+*  util-linux
+*  sqlite
+*  boost
+*  zeromq
+*  glm
+*  libgit2
+*  curl
+*  opencascade / opencascade community edition
+*  zeromq with C++ bindings: https://github.com/zeromq/cppzmq
+*  podofo
+*  libzip
 
 The C++ compiler needs to support ``std::filesystem``, for GCC this
 requires version 8 or newer.
