@@ -27,7 +27,7 @@ padstack. For details on padstacks see :ref:`here<Padstacks>`. Since the
 pads are probably a package’s most important feature, it’s makes sense
 to start with these. You can either place pads manually using the “Place
 pad” tool or have them placed automatically according to commonly used
-patterns using the “Footprint gen.” dialog available from the top bar.
+patterns using the “Footprint generator” dialog available from the magic wand button.
 After having placed the pads, they still have their default size, which
 is very likely not what you want. To fix this, select the pads you’d
 like to modify and use the “Edit pad” tool to add parameters to a pad.
