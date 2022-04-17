@@ -59,5 +59,7 @@ Once you are done, check out the 3D view of your part, and export Gerbers using 
 .. image:: images/3d-view.png
 
 
+See :doc:`imp-board` for more details on the board editor.
+
 
 Next: :doc:`Look at a Example Project <example-project>`
