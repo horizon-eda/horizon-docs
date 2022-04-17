@@ -11,14 +11,13 @@ Both point and comma are recognized as a decimal separator regardless of locale 
 
 Additionally, two-operand infix math is supported, so you can to this:
 
-Addition: ``1+2``
+- Addition: ``1+2``
+- Subtraction: ``1-2``
+- Multiplication: ``3*2``
+- Division: ``3/2``
+- Average :math:`\frac{ a+b }{2}`: ``3|2``
+- Adding mm and inch: ``1in+2mm``
 
-Subtraction: ``1-2``
+Right-click the entry to change the increment used by the +/− buttons:
 
-Multiplication: ``3*2``
-
-Division: ``3/2``
-
-Average :math:`\frac{ a+b }{2}`: ``3|2``
-
-Adding mm and inch: ``1in+2mm``
+.. image:: images/incr-set.png
