@@ -65,6 +65,7 @@ Take a look at the :doc:`top features <feature-overview>`, just :doc:`try it out
 
    pool-why
    pool-elements
+   project-pool
    pool-mgr
    create-package
    pool-contribute

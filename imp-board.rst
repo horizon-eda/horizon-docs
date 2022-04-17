@@ -79,6 +79,17 @@ Create a "Shorted pads" rule to specify that the pads of a part are electrically
 .. image:: images/shorted-pads.png
 
 
+.. _net-ties-brd:
+
+
+Net ties
+--------
+
+Once a net tie has been defined on the :ref:`Schematic<net-ties-sch>`, it can be added to the board using the "Draw net tie tool". A net tie on the board behaves similar to a track of the primary net and are treated as such by track width, copper clearance and other rules. Since net ties go from junction to junction, they can be joined with other tracks.
+
+The "Net ties" rule checks that all net ties that are defined on the schematic are drawn on the board and connect to the correct nets. The copper clearance checks ignore the clearance violation caused by the net tie, but still flag clearance violations caused by other objects of the net.
+
+
 Screenshot
 ----------
 
