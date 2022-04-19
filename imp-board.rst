@@ -69,6 +69,22 @@ Recolor nets
 Right click on one more selected nets to open the context and assign a specific color to nets.
 
 
+Panelisation
+------------
+
+For making best use of the available board space, Horizon EDA supports panelisation. Rather than copy/pasting a board into another one, which complicates last-minute changes, a board can reference other boards.
+
+Panelising an existing board in Horizon EDA is a simple multi-step process:
+
+ 1. Create a new empty project and open the board.
+ 2. Use the "Manage included boards" tool to load the board(s) to be placed on the panel.
+ 3. Place the included boards using the "Place board panel" tool.
+
+The boards can then be arranged as one object each without the possibility of unintentionally modifying it. To update the included boards, either use the reload button in the "Manage included boards" tool or reopen the project.
+
+For making it easier to draw the panel outline, the outline of included boards can be extracted using the "Smash panel outline" tool.
+
+
 Shorted pads
 ------------
 
