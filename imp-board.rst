@@ -105,6 +105,18 @@ Once a net tie has been defined on the :ref:`Schematic<net-ties-sch>`, it can be
 
 The "Net ties" rule checks that all net ties that are defined on the schematic are drawn on the board and connect to the correct nets. The copper clearance checks ignore the clearance violation caused by the net tie, but still flag clearance violations caused by other objects of the net.
 
+.. _offset-pad-connection:
+
+
+Offset pad connection
+---------------------
+
+For complex-shaped pads, one might want to connect a track to a specific position in the pad rather than to its origin. Use the "Move track connection" tool to move the end of a track that's connected to a pad.
+
+.. image:: images/offset-connection.png
+
+
+Keep in mind that tools based on the KiCad router such as "Route track" or "Drag track" aren't aware of this and will break the pad-track connection.
 
 Screenshot
 ----------
