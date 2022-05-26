@@ -27,10 +27,18 @@ Get the latest stable release from `Flathub <https://flathub.org/apps/details/or
 Debian, Ubuntu
 """"""""""""""
 
-Debian builds are hosted by `packagecloud <https://packagecloud.io/>`_.
+Debian builds are hosted on the `Selfnet mirror <https://mirror.selfnet.de/horizon-eda/>`__.
 
-First, follow the `instructions <https://packagecloud.io/horizon-eda/horizon-eda/install>`_ to add the repository.
-When done, you can install it using apt:
+To add the repository, first download the `GPG key <https://horizon-eda.org/horizon-eda-debian.gpg>`_ and save it somewhere, for example in ``/usr/local/share/keyrings``.
+
+Then add this line to ``/etc/apt/sources.list`` or a new file in ``/etc/apt/sources.list.d/``, replacing ``<distro>`` with either ``ubuntu`` or ``debian`` and ``<release>`` with the release name you're running.
+
+See the `directory listing <https://mirror.selfnet.de/horizon-eda/>`__ for the list of currently supported distributions/releases.
+
+::
+
+ deb [signed-by=/usr/local/share/keyrings/horizon-eda-debian.gpg] https://mirror.selfnet.de/horizon-eda/<distro>-<release>/ <release> main
+
 
 ::
 
@@ -78,7 +86,7 @@ Recommended if you want to get the latest in features and bug fixes.
 Windows
 ^^^^^^^
 
-Grab the latest build from `Artifactory <https://horizoneda.jfrog.io/ui/repos/tree/General/horizon-win64-ci>`_
+Grab the latest build from the `Selfnet mirror <https://mirror.selfnet.de/horizon-eda/win64-ci/>`__
 and unzip it somewhere. Note that these are 64bit binaries. The
 download URL is also shown on GitHub Actions.
 
