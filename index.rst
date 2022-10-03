@@ -68,6 +68,7 @@ Take a look at the :doc:`top features <feature-overview>`, just :doc:`try it out
    project-pool
    pool-mgr
    create-package
+   cursed-footprints
    pool-contribute
    
 
