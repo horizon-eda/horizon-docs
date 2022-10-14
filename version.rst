@@ -16,20 +16,20 @@ By Application version
 ----------------------
 
 .. csv-table::
-   :header: "Type", "1.3.0", "1.4.0", "2.0.0", "2.1.0", "2.2.0", "2.3.0"
+   :header: "Type", "1.3.0", "1.4.0", "2.0.0", "2.1.0", "2.2.0", "2.3.0", "2.4.0"
 
-   Unit, 0, 0, 0, 0, 0, **1**
-   Symbol, 0, 0, 0, 0, **1**, 1
-   Entity, 0, 0, 0, 0, 0, 0
-   Padstack, 0, 0, 0, 0, 0, 0
-   Package, 0, 0, 0, 0, 0, 0
-   Part, 0, 0, **1**, 1, **2**, 2
-   Frame, 0, 0, 0, 0, 0, 0
-   Decal, 0, 0, 0, 0, 0, 0
-   Schematic, 0, 0, **1**, 1, **3**, **6**
-   Board, 0, **2**, **4**, 4, **7**, **14**
-   Project, 0, 0, **1**, 1, **2**, 2
-   Pool, N/A, N/A, N/A, N/A, 0, **1**
+   Unit, 0, 0, 0, 0, 0, **1**, 1
+   Symbol, 0, 0, 0, 0, **1**, 1, 1
+   Entity, 0, 0, 0, 0, 0, 0, 0
+   Padstack, 0, 0, 0, 0, 0, 0, 0
+   Package, 0, 0, 0, 0, 0, 0, 0
+   Part, 0, 0, **1**, 1, **2**, 2, 2
+   Frame, 0, 0, 0, 0, 0, 0, 0
+   Decal, 0, 0, 0, 0, 0, 0, 0
+   Schematic, 0, 0, **1**, 1, **3**, **6**, **8**
+   Board, 0, **2**, **4**, 4, **7**, **14**, **17**
+   Project, 0, 0, **1**, 1, **2**, 2, **3**
+   Pool, N/A, N/A, N/A, N/A, 0, **1**, 1
 
 
 Changelog
@@ -53,6 +53,9 @@ Board:
   - 12: Add net ties
   - 13: Add ODB++ export
   - 14: Add track connection offset
+  - 15: Add curved tracks
+  - 16: Support relative paths for including boards
+  - 17: Save plane fragments to a separate file
   
 Schematic:
   - 1: Add custom values on symbols
@@ -61,10 +64,13 @@ Schematic:
   - 4: Add connectivity checks
   - 5: Add support for UUID-based alternate pin names with direction
   - 6: Add net ties
+  - 7: Keep nets on unconnected labels
+  - 8: Add BOM export customisation
 
 Project:
   - 1: Replace pool cache with project pool
   - 2: Add hierarchy
+  - 3: Save plane fragments to a separate file
 
 Part:
   - 1: Add flags
