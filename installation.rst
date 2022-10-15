@@ -12,6 +12,10 @@ Windows
 ^^^^^^^
 
 Download and run the MSI installer from `GitHub releases <https://github.com/horizon-eda/horizon/releases>`_.
+Only versions of Windows in `active support
+<https://endoflife.date/windows>`_ are supported by Horizon
+EDA. Older versions of Windows may work, but bugs specific to them
+won't be fixed.
 
 Linux
 ^^^^^
