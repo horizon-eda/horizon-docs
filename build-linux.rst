@@ -44,11 +44,11 @@ On Arch Linux:
    sudo pacman -S zeromq gtkmm3 cairomm librsvg sqlite3 libgit2 curl \
         opencascade boost glm podofo libarchive libspnav
 
-On Fedora 25/26/27:
+On Fedora:
 
 ::
 
-   sudo dnf install git make gcc gcc-c++ pkg-config cppzmq-devel OCE-devel\
+   sudo dnf install git make gcc gcc-c++ pkg-config cppzmq-devel opencascade-devel\
       gtkmm30-devel libgit2-devel libuuid-devel sqlite-devel librsvg2-devel\
       cairomm-devel glm-devel boost-devel libcurl-devel podofo-devel libarchive-devel\
       libspnav-devel
