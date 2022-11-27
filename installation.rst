@@ -46,6 +46,7 @@ See the `directory listing <https://mirror.selfnet.de/horizon-eda/>`__ for the l
 
 ::
 
+    sudo apt-get update
     sudo apt-get install horizon-eda-upstream
 
 
