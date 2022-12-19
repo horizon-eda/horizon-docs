@@ -41,7 +41,7 @@ See the `directory listing <https://mirror.selfnet.de/horizon-eda/>`__ for the l
 
 ::
 
- deb [signed-by=/usr/local/share/keyrings/horizon-eda-debian.gpg] https://mirror.selfnet.de/horizon-eda/<distro>-<release>/ <release> main
+ deb [signed-by=/usr/local/share/keyrings/horizon-eda-debian.gpg, arch=amd64] https://mirror.selfnet.de/horizon-eda/<distro>-<release>/ <release> main
 
 
 ::
