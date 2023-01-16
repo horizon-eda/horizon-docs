@@ -32,7 +32,7 @@ and provides a clean-slate playground for experimentation.
 
 At the very core of these thoughts was to keep schematic and netlist 
 representation of a design separate to allow for non-schematic based 
-workflows such a interconnectivity tables. That lead to the decision to 
+workflows such as interconnectivity tables. That lead to the decision to 
 define pins and their direction in what's called a Unit and not in the symbol as it's common 
 among many other EDA packages. This also makes it possible to have 
 multiple symbols representing the same thing (such as a resistor) 
@@ -50,7 +50,7 @@ Parts that include multiple instances of the same functionality such as
 quad opamps will then reference the opamp unit 4 times as well as a 
 unit for power supply.
 
-On the board side of things, a packages are defined as in pretty much 
+On the board side of things, packages are defined as in pretty much 
 every EDA package out there - pads and graphical items such as 
 silkscreen, reference designator and assembly outline. Pads however are 
 defined by a padstack describing copper, soldermask and other layers in 
