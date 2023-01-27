@@ -1,6 +1,14 @@
 Frequently asked questions
 ==========================
 
+Where's everything? There's no menu bar!
+----------------------------------------
+
+In lieu of a traditional File, Edit, etc. menu bar Horizon EDA
+features a searchable menu that lists all currently available actions.
+Press space anywhere in editor to open it. It's resizable by dragging
+the bottom edge.
+
 How do I connect two net segments and why am I getting duplicate net name warnings?
 ------------------------------------------------------------------------------------
 
