@@ -41,8 +41,8 @@ On Arch Linux:
 
 ::
 
-   sudo pacman -S zeromq gtkmm3 cairomm librsvg sqlite3 libgit2 curl \
-        opencascade boost glm podofo libarchive libspnav
+   sudo pacman -S zeromq cppzmq gtkmm3 cairomm librsvg sqlite3 libgit2 curl \
+        opencascade boost glm podofo-0.9 libarchive libspnav
 
 On Fedora:
 
