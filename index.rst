@@ -55,6 +55,7 @@ Take a look at the :doc:`top features <feature-overview>`, just :doc:`try it out
    :caption: Board Editor:
 
    imp-board
+   vias
    copy-layout-placement
    backannotation
    rules

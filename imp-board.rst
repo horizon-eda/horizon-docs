@@ -17,10 +17,11 @@ lower fill order will get filled first. To override the connection style (solid 
 Vias
 ----
 
-To place a via while routing, press :kbd:`v`. The "Layer pairs" rule defines which layer the router switches to. To change the size of vias, define a matching via rule.
+To place a via while routing, press :kbd:`v`. The "Layer pairs" rule defines which layer the router switches to. To change the size of vias, define a matching via rule or via definitions.
 
 You can also place vias not connected to any track with the "Place via" tool.
 
+See :doc:`vias` for how to use blind or buried vias.
 
 Importing logos
 ---------------
