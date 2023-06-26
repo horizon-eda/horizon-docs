@@ -22,3 +22,10 @@ Fuse board of the Formula Student Racecar "eSleek19" of DHBW Engineering Stuttga
 
 .. image:: images/made-with/dhbw-fuse-brd.jpg
 
+ErgoNICE (Split Mechanical Keyboard)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`Repository <https://codeberg.org/valpackett/ergonice>`__
+`Article <https://val.packett.cool/blog/ergonice/>`__
+
+.. image:: images/made-with/ergonice.jpg
