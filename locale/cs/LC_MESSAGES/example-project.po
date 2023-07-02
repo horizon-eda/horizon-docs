@@ -1,0 +1,39 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../example-project.rst:2
+msgid "Example project"
+msgstr ""
+"Příklad projektu"
+
+#: ../../example-project.rst:4
+msgid ""
+"Instead of starting your own project, you can also download the `design "
+"files for an X-Band transmitter <https://github.com/carrotIndustries/x-"
+"band-tx>`__. To open it, point the project manager to the ``ddstx.hprj`` "
+"file. Make sure that you extract all the files contained in that "
+"repository."
+msgstr ""
+"Místo zahájení vlastního projektu si také můžete projekt stáhnout např. `návrhové soubory projektu X-Band "
+"transmitter <https://github.com/carrotIndustries/x-band-tx>`__. Pro otevření, vyberte složku obsahující soubor ``ddstx.hprj`` v projektovém manažeru. Ujistěte se, že jsou rozbaleny všechny soubory obsažené v tomto archivu."
+
+#: ../../example-project.rst:10
+msgid "Next: :doc:`Basic Editor Usage: Tools<tools>`"
+msgstr ""

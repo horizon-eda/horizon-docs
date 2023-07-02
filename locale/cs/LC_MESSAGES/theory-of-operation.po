@@ -1,0 +1,103 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../theory-of-operation.rst:2
+msgid "Theory of Operation"
+msgstr "Popis funkce"
+
+#: ../../theory-of-operation.rst:5
+msgid "Interactive manipulator"
+msgstr "Interaktivní manipulátor"
+
+#: ../../theory-of-operation.rst:7
+msgid ""
+"Horizon's primary interface is the so-called \"Interactive manipulator"
+"\" (imp). It's the unified editor for symbols, schematics, padstacks, "
+"packages and boards."
+msgstr ""
+"Primárním rozhraním Horizontu je tzv. „Interaktivní manipulátor“. "
+"Je to jednotný editor symbolů, schémat, pájecích míst (padstacks), "
+"pouzder součástek (packages) a desky plošných spojů (PCB)."
+
+#: ../../theory-of-operation.rst:12
+msgid "Canvas"
+msgstr "Pracovní plocha (Canvas)"
+
+#: ../../theory-of-operation.rst:14
+msgid ""
+"The canvas renders objects such as symbols, packages or tracks. The "
+"output of the rendering are line segments and triangles that get uploaded "
+"to the GPU for drawing. For rendering to to non-OpenGL targets, the "
+"canvas provides hooks to get more information on what's being rendered. "
+"So far, this is used by the gerber exporter, 3D preview and DRC."
+msgstr ""
+"Na pracovní ploše se vykreslují objekty, jako jsou symboly schematu, pouzdra součástek nebo jednotlivé spoje. "
+"výstupem vykreslení jsou segmenty čar a trojúhelníky, které jsou následně vykresleny pomocí grafického procesoru (GPU). "
+"Chcete-li vykreslit na pracovní ploše jiné než grafické (OpenGL) objekty, "
+"pracovní plocha poskytuje nástroje pro získání více informací o tom, co je "
+"vykresleno. Zatím program umožňuje výstup ve formátu Gerber, 3D náhled na desku a kontrolu dle pravidel návrhu "
+"(DRC - Design rule checking)"
+
+#: ../../theory-of-operation.rst:22
+msgid "Core"
+msgstr "Jádro (Core)"
+
+#: ../../theory-of-operation.rst:24
+msgid ""
+"Since some documents such as symbols and schematics contain the same type "
+"of object (e.g. texts) and schematic and netlist need to be modified in-"
+"sync, some encapsulation has to take place. The core can be considered "
+"the glue between the document, the canvas and the tools."
+msgstr ""
+"Protože některé dokumenty, jako jsou symboly a schémata, obsahují ty samé "
+"typy objektu (např. texty), schémata a seznam spojů (netlist) musí být "
+"modifikované synchronizovaně, musí dojít k zapouzdření. Jádro je "
+"spojovací článek mezi dokumentem, pracovní plochou a nástroji."
+
+#: ../../theory-of-operation.rst:30
+msgid "Tools"
+msgstr "Nástroje (Tools)"
+
+#: ../../theory-of-operation.rst:32
+msgid ""
+"For each action the user can do, there's a tool. Once started, a tool "
+"receives keyboard and mouse input and modifies the document accordingly "
+"by means of the core. When needed, a tool may bring up additional dialogs "
+"for requesting information from the user."
+msgstr ""
+"Pro každou akci, kterou může uživatel udělat, existuje nástroj. Vyvoláný nástroj začne "
+"přijímat vstupy z klávesnice a myši a podle funkce upravuje dokument "
+"pomocí jádra. V případě potřeby může nástroj vyvolat další "
+"dialogy pro vyžádání dodatečných informací od uživatele."
+
+#: ../../theory-of-operation.rst:38
+msgid "Property editor"
+msgstr "Editor vlastností (Property editor)"
+
+#: ../../theory-of-operation.rst:40
+msgid ""
+"Low-complexity adjustments such as line width don't warrant their own "
+"tool, that's why the the core provides a property interface. The property "
+"editor's widgets are automatically generated from the object's "
+"description."
+msgstr ""
+"Jednoduché úpravy parametrů objektů, jako je šířka čáry, neumožňují přímo jejich nástroje, "
+"proto jádro poskytuje rozhraní úprav vlastností. "
+"ovládací prvky editoru vlastností jsou automaticky generovány z popisu objektů."

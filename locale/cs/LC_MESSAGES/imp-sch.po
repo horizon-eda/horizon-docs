@@ -1,0 +1,142 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../imp-sch.rst:2
+msgid "Schematic Editor"
+msgstr "Editor schémat"
+
+# FIXME probably out of sync with the original document, link is broken
+#: ../../imp-sch.rst:4
+msgid ""
+"To launch the schematic editor click on “Top Schematic” in the project "
+"manager."
+msgstr ""
+"Chcete-li spustit editor schémat, klikněte v manažeru projektu na „Top Schematic“. Podobně jako jiné grafické editory, schematický editor v Horizon-EDA je založen na Interaktivním manipulátoru. Chcete-li umístit součástky, použijte příkaz „Place part“ nebo prohlížeč součástí v hlavním projektu. Ten je mnohem pohodlnější, protože může být trvale otevřený. Začněte kreslit propojení (vodiče) schematu stisknutím Klávesy „n“."
+
+#: ../../imp-sch.rst:8
+msgid "Placing parts"
+msgstr ""
+
+#: ../../imp-sch.rst:10
+msgid ""
+"To place parts, open the part browser either by typing :kbd:`p p` (place "
+"part) or clicking on the corresponding icon in the project manager. Once "
+"a part has been placed, it can be replaced by a part of the same entity "
+"by selecting it and using the \"Assign part\" button in the part browser "
+"window."
+msgstr ""
+
+#: ../../imp-sch.rst:13
+msgid "Nets and net segments"
+msgstr "Spoje a segmenty spojů (Nets)"
+
+#: ../../imp-sch.rst:15
+msgid ""
+"Unlike some other schematic entry tools, horizon’s actually knows about "
+"nets and isn’t just about drawing lines that will eventually be "
+"transformed into nets when generating the netlist. A net may be "
+"represented by one or more net segment. A net segment is a set of net "
+"lines, junctions, pins, etc. all connected by net lines. Since the editor "
+"tracks which net segments belongs to which net, it provides feedback when "
+"an operation is about to merge two nets."
+msgstr ""
+"Na rozdíl od některých jiných schématických editorů Horizon-EDA si eviduje jednotlivá propojení a nejde jen o nakreslenou čáru (vodič), která se nakonec při generování seznamu spojů (netlistu) transformuje na vodič (spoj). Propojení může být reprezentováno jedním nebo více segmenty vodičů. Segment spoje je sada propojení vodičů, uzlů, vývodů atd. všechny propojené vodiči (čárami spoje). Editor sleduje, které vodiče patří do kterého segmentu a oznamuje, když se operace chystá sloučit dva segmenty."
+
+#: ../../imp-sch.rst:23
+msgid ""
+"So when you see a net in the property editor after selecting a net line, "
+"the net in the property editors is the “whole” net and not just the net "
+"segment. That’s why renaming a net doesn’t change connectivity. To "
+"connect the pins on a net segment to a different net, use the “Move net "
+"segment to other/new net” tool."
+msgstr ""
+"Když se podíváte na spoj v editoru vlastností po výběru spoje, spoj v editoru vlastností je „celý“ spoj, nejen segment spoje. Proto přejmenování spoje nemění propojení. Pro připojení vývodu na segment jiného spoje, použijte nástroj pro přesunutí segmentu do jiného nebo nový spoj “Move net segment to other/new net”."
+
+#: ../../imp-sch.rst:29
+msgid ""
+"A net label just displays the name of the net it is connected to and "
+"doens’t set net names. To alert you about inconsistencies in the "
+"schematic that could result in unexpected connectivity, the schematic "
+"editor places warnings on the offending items."
+msgstr ""
+"Štítek spoje (Net label) pouze zobrazuje název spoje, ke kterému je připojen, ale nemění ho. Upozorňuje vás na nekonzistenci v systému schématu, které by mohlo mít za následek nežádoucí propojení, editor schématu umístí varování na porušené položky."
+
+#: ../../imp-sch.rst:35
+msgid "Power symbols"
+msgstr "Symboly napájení (Power Nets)"
+
+#: ../../imp-sch.rst:37
+msgid ""
+"The easiest way of creating a power net is using the “Manage Power Nets” "
+"Tool available from the hamburger menu. Then, use the tool “place power "
+"symbol”, to place a power symbol for this net. Power symbols force their "
+"net on the connected net segment. You can select from three styles of "
+"Power symbols in the aforementioned tool. The Antenna and Dot symbols can "
+"be placed either pointing up or down. The GND symbol can only point "
+"downwards."
+msgstr ""
+"Nejjednodušší způsob vytvoření symbolu napájení ve schematu je použít příkaz pro správu napájení „Manage Power Nets“. Příkaz je k dispozici v menu hamburger. Poté použijte příkaz „place power symbol“, pro umístění symbolu napájení pro tento spoj. Symboly napájení \"napájí\" jejich vodiče a připojené segmenty. Můžete si vybrat ze tří stylů napájecích symbolů ve výše uvedeném příkazu. Symboly antény a tečky "
+"lze umístit buď nahoru nebo dolů. Symbol GND může směřovat pouze dolů."
+
+#: ../../imp-sch.rst:46
+msgid "Buses"
+msgstr "Sběrnice (Buses)"
+
+#: ../../imp-sch.rst:48
+msgid ""
+"To group related nets, use Buses. After creating a bus, add members to "
+"it. You can either assign existing nets or automatically name the newly "
+"created net by clicking on the arrow button next to it."
+msgstr ""
+"Pro seskupení souvisejících vodičů použijte sběrnice (Buses). Po vytvoření sběrnice přidejte vodiče. Můžete buď přiřadit existující vodiče nebo nově pojmenovat automaticky vytvořený vodič kliknutím na tlačítko se šipkou vedle ní."
+
+#: ../../imp-sch.rst:56
+msgid "Diffpairs"
+msgstr "Diferenciální páry (Diff. pairs)"
+
+#: ../../imp-sch.rst:58
+msgid ""
+"To create a differential pair, select the two nets you want to become a "
+"pair and run the “Set diff. pair” tool. You can also select one net and "
+"you’ll be asked for the other net. To decouple the nets, use the “Clear "
+"diff. pair” tool. It’s recommended to assign both nets a netclass such as "
+"“100diff” so you can match them in the rules."
+msgstr ""
+"Chcete-li vytvořit diferenciální pár, vyberte dva vodiče, které chcete spárovat a spusťte příkaz „Set diff. pair\". Můžete také vybrat jeden vodič a budete požádáni o druhý. Chcete-li oddělit vodiče, použijte příkaz „Clear diff. pair\". Doporučuje se přiřadit oběma vodičům stejnou hladinu (Netclass) např. „100diff“, abyste jim mohli snadno nastavit stejná pravidla."
+
+#: ../../imp-sch.rst:65
+msgid "To board"
+msgstr "Přímo na desku (To board)"
+
+#: ../../imp-sch.rst:67
+msgid ""
+"To facilitate placing packages on the board, simply select the "
+"corresponding symbols and hit “To board”. This will switch to the board "
+"editor and launch the “place package” tool with the packages for the "
+"selected symbols. Note that you may need to reload the netlist in the "
+"board editor before doing so to make the board editor pick up new "
+"components."
+msgstr ""
+"Chcete-li usnadnit umísťování pouzder součástek na desku plošných spojů DPS (PCB), jednoduše vyberte "
+"požadované symboly a stiskněte „To board“. Tím se přepnete na editor desky dále spusťte nástroj „place package“ s pouzdry pro vybrané symboly. Možná bude nutné nejdříve znovu načíst seznam spojů (netlist) v Editoru desky, aby editor desky načetl nové komponenty."
+
+#: ../../imp-sch.rst:75
+msgid "Screenshots"
+msgstr "Snímek obrazovky"

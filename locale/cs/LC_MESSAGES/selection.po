@@ -1,0 +1,82 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../selection.rst:2
+msgid "Selection"
+msgstr ""
+
+#: ../../selection.rst:4
+msgid ""
+"Selection throughout the Editors of Horizon EDA is very straightforward "
+"and there are no surprises here. No matter how basic it seems, the "
+"different modes and filters could save you quite some time."
+msgstr ""
+
+#: ../../selection.rst:7
+msgid "Basics"
+msgstr ""
+
+#: ../../selection.rst:11
+msgid ""
+"Initially, the \"hover select\" mode is active. It simply selects the "
+"smallest object under the cursor. Leftclick or drag with the clicked "
+"button to select objects permanently. Hit :kbd:`Esc` or click into a "
+"blank space for returning to hover select mode."
+msgstr ""
+
+#: ../../selection.rst:14
+msgid ""
+"If you want to select multiple things by clicking keep Hit :kbd:`Ctrl` "
+"pressed while you click on things – this also works to deselect things "
+"you accidentally selected while dragging a selection box."
+msgstr ""
+
+#: ../../selection.rst:18
+msgid "Selection Mode"
+msgstr ""
+
+#: ../../selection.rst:22
+msgid ""
+"You can change how dragging the left mouse button behaves in the lower "
+"left corner of the editor window. Available are three different modes "
+"(Box, Lasso, Paint) with four different selection characteristics (Auto, "
+"Include Origin, Touch Box, Include Box)."
+msgstr ""
+
+#: ../../selection.rst:26
+msgid "Selection Filter"
+msgstr ""
+
+#: ../../selection.rst:30
+msgid ""
+"If you have to select many things, it can sometimes be handy to only "
+"select certain classes of objects. This is what the selection filter is "
+"for. You can open it up via the spacebar menu or by pressing :kbd:`Ctrl+i`"
+msgstr ""
+
+#: ../../selection.rst:32
+msgid ""
+"Double click on an item to select only that item. Click on the check mark "
+"button on the top left to select all items."
+msgstr ""
+
+#: ../../selection.rst:37
+msgid "Next: :doc:`Moving and the interactive Manipulator<move>`"
+msgstr ""

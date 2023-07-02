@@ -14,7 +14,7 @@ Use the tool "Draw connection line" to connect pads or junctions as
 desired. Then, use "Backannotate connection lines" to send these 
 connections over to the schematic editor. The newly created connections
 will appear as net stubs. After saving the schematic and reloading the 
-netlist in the board edtior, the connection lines will automatically be 
+netlist in the board editor, the connection lines will automatically be
 replaced by airwires.
 
 Limitations

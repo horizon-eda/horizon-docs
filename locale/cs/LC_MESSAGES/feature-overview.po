@@ -1,0 +1,283 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 19:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../feature-overview.rst:2
+msgid "Feature overview"
+msgstr "Hlavní výhody"
+
+#: ../../feature-overview.rst:5
+msgid "Sane and simple part management"
+msgstr "Interaktivní a jednoduchý management součástí"
+
+#: ../../feature-overview.rst:7
+msgid ""
+"Easily manage parts, packages and symbols with the :doc:`pool manager "
+"<pool-mgr>` (also see :doc:`What is a Pool? <pool-why>`):"
+msgstr ""
+"Snadná správa součástí, pouzder součástek a symbolů schemat pomocí "
+"správce fondu knihovny součástí (:doc:`Pool manager <pool-mgr>`, "
+":doc:`What is a Pool? <pool-why>`):"
+
+#: ../../feature-overview.rst:12
+msgid "Assign pins to pads in the part editor:"
+msgstr ""
+"Přiřazení vývodů k pájecím ploškám v editoru součástí (Part editor):"
+
+#: ../../feature-overview.rst:17
+msgid "Easy part creation"
+msgstr "Snadné vytváření součástí"
+
+#: ../../feature-overview.rst:19
+msgid "Simply add pins as they're listed in the datasheet:"
+msgstr ""
+"Jednoduše přidejte vývody tak, jak jsou uvedeny v katalogovém listu "
+"součástky:"
+
+#: ../../feature-overview.rst:23
+msgid ""
+"Horizon also ships with script templates for importing industry-standard "
+"formats like IBIS saving you the tedious work of typing what's in the "
+"datasheet."
+msgstr ""
+"Horizon-EDA se dodává také se šablonami skriptů pro import průmyslového "
+"standardu ve formátech jako je IBIS, který vám ušetří zdlouhavou práci "
+"při opisování toho, co je v katalogovém listu."
+
+#: ../../feature-overview.rst:28
+msgid "Easy package creation"
+msgstr ""
+
+#: ../../feature-overview.rst:30
+msgid ""
+"Get a head start on creating packages by choosing from over 20 IPC-"
+"compliant footprint presets:"
+msgstr ""
+
+#: ../../feature-overview.rst:35
+msgid "Importing KiCad footprints is supported as well."
+msgstr ""
+
+#: ../../feature-overview.rst:39
+msgid "Loves beginners and power users alike"
+msgstr "Snadný pro začátečníky i pokročilé uživatele"
+
+#: ../../feature-overview.rst:41
+msgid ""
+"Just press the spacebar and get a list of all the actions you can "
+"perform. These actions can be bound to customizible single key shortcuts "
+"or to vim-like multi key sequences."
+msgstr ""
+"Stačí stisknout mezerník a zobrazí se seznam všech příkazů, které můžete "
+"provést. Tyto příkazy lze spouštět přizpůsobitelnými klávesovými "
+"zkratkami pro jednotlivé klávesy nebo různými kombinacemi kláves "
+"podobnými editoru Vim."
+
+#: ../../feature-overview.rst:46
+msgid "A schematic editor that knows what you're doing"
+msgstr "Schematický editor, který ví co děláte"
+
+#: ../../feature-overview.rst:48
+msgid ""
+"Schematics aren't just about lines and labels. Horizon's schematic editor "
+"knows about nets and asks you when merging them:"
+msgstr ""
+"Kreslení schemat není jen o linkách a štítcích. Schéma v editoru Horizon "
+"EDA ví o jednotlivých spojích a zeptá se vás na jejich sloučení:"
+
+#: ../../feature-overview.rst:53
+msgid "It places junctions where they should be:"
+msgstr "Umístí uzly tam, kde by měly být:"
+
+#: ../../feature-overview.rst:57
+msgid ""
+"It also reorients texts automatically, so you don't end up with hard-to-"
+"read reference designators:"
+msgstr ""
+"Také automaticky přeorientuje texty, takže se tím vyhnete těžko čitelnému "
+"referenčnímu označení:"
+
+#: ../../feature-overview.rst:62
+msgid "Buses aren't foreign to horizon either:"
+msgstr "Ani sběrnice nejsou Horizonu cizí:"
+
+#: ../../feature-overview.rst:67
+msgid "Interactive router with online DRC"
+msgstr "Interaktivní trasér spojů s přímou kontrolou pravidel (DRC)"
+
+#: ../../feature-overview.rst:69
+#, fuzzy
+msgid ""
+"By using the interactive router originally developed for KiCad, routing "
+"tracks becomes a breeze. Of course, it respects your design rules. "
+"Routing differential pairs is supported as well."
+msgstr ""
+"Pomocí interaktivního traséru (routeru) původně vyvinutého pro KiCad, se "
+"vytváření spojů stane hračkou. Samozřejmě respektuje vaše pravidla návrhu."
+
+#: ../../feature-overview.rst:76
+msgid "Powerful rules"
+msgstr "Silná pravidla"
+
+#: ../../feature-overview.rst:78
+msgid ""
+"With powerful and flexible rules, horizon can check and adjust your "
+"design to meet its constraints:"
+msgstr ""
+"S výkonnými a flexibilními pravidly může horizont kontrolovat a upravovat "
+"váš návrh splňující nastavená kriteria:"
+
+#: ../../feature-overview.rst:83
+msgid ""
+"If something doesn't meet your rules, horizon exactly tells what's wrong "
+"in which place:"
+msgstr ""
+"Pokud něco nesplňuje vaše požadavky, horizont přesně řekne, co to je a na "
+"kterém místě:"
+
+#: ../../feature-overview.rst:88
+msgid "Multithreaded DRC makes use of all CPU cores:"
+msgstr ""
+
+#: ../../feature-overview.rst:93
+msgid "Interactive length tuning"
+msgstr ""
+
+#: ../../feature-overview.rst:95
+msgid ""
+"Interactively measure and tune individual tracks, differential pairs or "
+"buses:"
+msgstr ""
+
+#: ../../feature-overview.rst:102
+msgid "Parametric Search"
+msgstr ""
+
+#: ../../feature-overview.rst:104
+msgid "Parametric part search helps you to quickly find passives:"
+msgstr ""
+
+#: ../../feature-overview.rst:109
+msgid "Stock information"
+msgstr ""
+
+#: ../../feature-overview.rst:111
+msgid ""
+"Real-time stock information powered by `Kitspace's partinfo <https://"
+"github.com/kitspace/partinfo>`_:"
+msgstr ""
+
+#: ../../feature-overview.rst:117
+msgid "Smart Head-up Display"
+msgstr ""
+
+#: ../../feature-overview.rst:119
+msgid ""
+"Instantly know what you're looking at with direct link to datasheets:"
+msgstr ""
+
+#: ../../feature-overview.rst:123
+msgid "Measures pad distance and much more:"
+msgstr ""
+
+#: ../../feature-overview.rst:129
+msgid "Industry-standard fabrication outputs"
+msgstr "Průmyslové standardy výroby"
+
+#: ../../feature-overview.rst:131
+msgid ""
+"When your design is ready for fabrication, simply export industry-"
+"standard RS-274X gerber and NC-Drill files:"
+msgstr ""
+"Až bude váš návrh připraven k výrobě, jednoduše exportujte ve formátu "
+"průmyslového standartu Gerber a NC-vrtání ve formátu RS-274X:"
+
+#: ../../feature-overview.rst:138
+msgid "Mechanical CAD integration"
+msgstr ""
+
+#: ../../feature-overview.rst:140
+msgid ""
+"Extend packages into the 3rd dimension by adding a 3D model in industry-"
+"standard STEP format:"
+msgstr ""
+
+#: ../../feature-overview.rst:145
+#, fuzzy
+msgid ""
+"Look at your board as if you were holding it in your hands to make sure "
+"everything fits as intended:"
+msgstr ""
+"Podívejte se na svou desku, jako byste ji drželi ve svých rukou. Za "
+"použití funkce rozpadu (Explode), můžete vrstvy zobrazit oddělené."
+
+#: ../../feature-overview.rst:150
+msgid ""
+"When the design is done, export the board and all models as STEP file for "
+"use in mechanical CAD:"
+msgstr ""
+
+#: ../../feature-overview.rst:156
+msgid "Make it yours"
+msgstr ""
+
+#: ../../feature-overview.rst:158
+msgid ""
+"Decoration affects people, and people are different – do your own thing "
+"or select from the existing color schemes."
+msgstr ""
+"Dekorace ovlivňuje lidi a lidé jsou různí - udělejte si své vlastní "
+"nastavení barev nebo si vyberte z existujících barevných schémat."
+
+#: ../../feature-overview.rst:166
+msgid "Keyboard shortcuts are fully customizable as well."
+msgstr ""
+
+#: ../../feature-overview.rst:169
+msgid "There's much more"
+msgstr "Je toho mnohem víc"
+
+#: ../../feature-overview.rst:171
+msgid "OpenGL-accelerated rendering"
+msgstr "Akcelerované zobrazování (OpenGL)"
+
+#: ../../feature-overview.rst:172
+#, fuzzy
+msgid "Undo/redo"
+msgstr "Neomezená možnost příkazů zpět / opakování"
+
+#: ../../feature-overview.rst:173
+msgid "Copy/paste, even between instances"
+msgstr "Kopírování / vkládání, a to i mezi instancemi"
+
+#: ../../feature-overview.rst:174
+msgid "Filled planes"
+msgstr "Vyplněné plochy spojů"
+
+#: ../../feature-overview.rst:175
+msgid "Arbitrary pad shapes"
+msgstr "Libovolné tvary pájecích míst"
+
+#: ../../feature-overview.rst:176
+msgid "Import DXF Artwork"
+msgstr ""
+
+#: ../../feature-overview.rst:177
+msgid "Export a Bill of Materials (BOM)"
+msgstr ""

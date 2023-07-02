@@ -1,0 +1,150 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../why-another-eda-package.rst:2
+msgid "Why another EDA package"
+msgstr "Proč další ptogram typu EDA (Electronic Design Automation)"
+
+#: ../../why-another-eda-package.rst:4
+msgid ""
+"So you may be wondering why I started horizon EDA back in 2016, given "
+"that KiCad was a thing at that time."
+msgstr ""
+"Možná se divíte, proč jsem začal s horizonem EDA v roce 2016, když v té době již existoval funkční program KiCad."
+
+#: ../../why-another-eda-package.rst:7
+msgid ""
+"Let's get started with a quote from Tom Hausherr: `PCB Design Perfection "
+"Starts in the CAD Library <https://www.innofour.com/3783/news/literature/"
+"pcb-design-perfection-starts-in-the-cad-library/pcb-design-perfection-"
+"starts-in-the-cad-library-part-1>`_"
+msgstr ""
+"Začněme s citací od Toma Hausherra: `PCB Design Perfection začíná v CAD knihovně <https://www.innofour.com/3783/news/literature/pcb-design-perfection-starts-in-the-cad-library/pcb-design-perfection-starts-in-the-cad-library-part-1>`_"
+
+#: ../../why-another-eda-package.rst:10
+msgid "[...] PCB design perfection starts in the CAD library."
+msgstr ""
+
+#: ../../why-another-eda-package.rst:12
+msgid ""
+"This also applies to EDA software as in a schematic / PCB design tool can "
+"only be as good its library structure. Since the definition of library "
+"items such as symbols packages is the very foundation of any EDA "
+"software, changing these definitions is next-to-impossible without "
+"significant changes to almost all other parts of the application. Having "
+"a certain library structure in place also thus guides any further "
+"development on that EDA application."
+msgstr ""
+
+#: ../../why-another-eda-package.rst:20
+msgid ""
+"Having used KiCad for small and medium-sized projects, my biggest pain "
+"points were the library lacking a concept of orderable parts without "
+"duplicating the symbol for each part and the schematic editor not knowing "
+"about nets. KiCad's board editor, while being quite good as a layout tool "
+"was lacking expressive design rules. Especially the first and second "
+"point didn't seem easy to alleviate without major changes that would have "
+"involved lots of discussion since these would be breaking changes."
+msgstr ""
+
+#: ../../why-another-eda-package.rst:29
+msgid ""
+"That made me start thinking how I'd design an EDA tool that meets my "
+"wishes and is easy enough to implement from scratch as a one man show and "
+"provides a clean-slate playground for experimentation."
+msgstr ""
+
+#: ../../why-another-eda-package.rst:33
+msgid ""
+"At the very core of these thoughts was to keep schematic and netlist "
+"representation of a design separate to allow for non-schematic based "
+"workflows such a interconnectivity tables. That lead to the decision to "
+"define pins and their direction in what's called a Unit and not in the "
+"symbol as it's common among many other EDA packages. This also makes it "
+"possible to have multiple symbols representing the same thing (such as a "
+"resistor) without any effect on the netlist. Apart from name and "
+"direction, a pin as it's defined in a Unit can also have multiple "
+"alternate names to specify multiple pin functions as they're commonly "
+"available on MCUs and FPGAs."
+msgstr ""
+
+#: ../../why-another-eda-package.rst:44
+msgid ""
+"To define the netlist representation of an actual part, units are "
+"referenced by what's called an Entity. This reference is called Gate. For "
+"simple parts, an entity references just a single Unit that includes all "
+"pins. For some parts it makes sense to have more gates."
+msgstr ""
+
+#: ../../why-another-eda-package.rst:49
+msgid ""
+"Parts that include multiple instances of the same functionality such as "
+"quad opamps will then reference the opamp unit 4 times as well as a unit "
+"for power supply."
+msgstr ""
+
+#: ../../why-another-eda-package.rst:53
+msgid ""
+"On the board side of things, a packages are defined as in pretty much "
+"every EDA package out there - pads and graphical items such as "
+"silkscreen, reference designator and assembly outline. Pads however are "
+"defined by a padstack describing copper, soldermask and other layers in "
+"terms of shapes and polygons. This greatly facilitates odd-shaped pads as "
+"they can be drawn as-is without resorting to hacks such as using multiple "
+"pads to make up one actual pad. To avoid having a custom-drawn padstack "
+"for every pad size, padstacks are usually accompanied by a short script "
+"written in a custom stack-based language to adjust their size as well as "
+"other properties such as corner radius or solder mask expansion."
+msgstr ""
+
+#: ../../why-another-eda-package.rst:65
+msgid ""
+"The pads of a package are mapped to the pins defined in the units "
+"referenced by an entity in what's called a Part. In order to mapped to "
+"something orderable, Parts have fields for the manufacturer name and the "
+"manufacturer's part number (MPN) among other details such as datasheet "
+"link or description."
+msgstr ""
+
+#: ../../why-another-eda-package.rst:71
+msgid ""
+"All aforementioned references between items (such as entities referencing "
+"units) are by UUIDs. In Horizon EDA, all items get assigned an immutable "
+"UUID at time of their creation. This UUID is then used by other items to "
+"reference this item."
+msgstr ""
+
+#: ../../why-another-eda-package.rst:76
+msgid "To wrap up this introduction:"
+msgstr ""
+
+#: ../../why-another-eda-package.rst:78
+msgid ""
+"My biggest weakness is that i will eventually turn any arbitrary "
+"electronics project into an excuse to write EDA software (and vice versa)."
+msgstr ""
+
+#: ../../why-another-eda-package.rst:82
+msgid "(Based on https://twitter.com/mycoliza/status/824809235632447492)"
+msgstr ""
+
+#: ../../why-another-eda-package.rst:84
+msgid "Next: :doc:`Feature Overview<feature-overview>`"
+msgstr ""

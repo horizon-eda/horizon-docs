@@ -1,0 +1,90 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../move.rst:2
+msgid "Moving and the interactive manipulator"
+msgstr ""
+
+#: ../../move.rst:5
+msgid "Move with Mouse"
+msgstr ""
+
+#: ../../move.rst:7
+msgid ""
+"You can move parts and nets by selecting them and typing :kbd:`m`, press :"
+"kbd:`Alt` to move on a fine grid. The movment of the selected object has "
+"its origin (or pivot) point right at the spot where the interactive "
+"manipulator was, when you started the move tool."
+msgstr ""
+
+#: ../../move.rst:9
+msgid ""
+"This can be used to our advantage, because it allows us to move objects "
+"that have been placed on a finer grid without snapping them back to the "
+"coarse grid."
+msgstr ""
+
+#: ../../move.rst:13
+msgid "Move with Keyboard"
+msgstr ""
+
+#: ../../move.rst:15
+msgid ""
+"By using the :kbd:`←/↑/↓/→` arrow keys you can move the selected object "
+"one grid step into the desired direction. If you press :kbd:`Alt` at the "
+"same time you will move the part on the fine grid (1/10 of the original "
+"grid). Because this is also a tool, you can cancel it by pressing :kbd:"
+"`Esc` and finish it by pressing :kbd:`Enter` or clicking onto a empty "
+"spot."
+msgstr ""
+
+#: ../../move.rst:18
+msgid "Move Exactly"
+msgstr ""
+
+#: ../../move.rst:20
+msgid ""
+"The \"Move exactly\" tool allows you to enter numbers to move an object "
+"by an exact number of units (e.g. 1 mm) into the desired direction. You "
+"can start the tool by pressing :kbd:`M`"
+msgstr ""
+
+#: ../../move.rst:24
+msgid "Flip"
+msgstr ""
+
+#: ../../move.rst:26
+msgid ""
+"You can flip symbols or parts by pressing :kbd:`e`. If you use this on "
+"the board editor, it is the same as flipping the part onto the other side"
+msgstr ""
+
+#: ../../move.rst:29
+msgid "Rotate"
+msgstr ""
+
+#: ../../move.rst:31
+msgid ""
+"You can rotate objects by 90° if you press :kbd:`r` or select the \"rotate"
+"\" tool. If you like to rotate a object by something else (e.g. 30° or "
+"45°) use the \"Rotate arbitrary\" tool. The pivot point of the rotation "
+"is always the location of the interactive manipulator, so make sure it is "
+"at the right spot"
+msgstr ""

@@ -1,0 +1,74 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../pool-setup.rst:2
+msgid "Setting up a pool"
+msgstr ""
+
+#: ../../pool-setup.rst:4
+msgid ""
+"There are two ways of setting up a pool. If you are familiar with the "
+"version control system git and want to be in direct control of your "
+"repository you can use the git workflow below, if not, just use the pool "
+"manager."
+msgstr ""
+
+#: ../../pool-setup.rst:7
+msgid "Git"
+msgstr ""
+"Program Git"
+
+#: ../../pool-setup.rst:9
+msgid ""
+"If you're familiar with git, just clone clone `horizon-pool <https://"
+"github.com/horizon-eda/horizon-pool/>`_ somewhere and you're good to go. "
+"You're supposed to use git to keep your local copy up to date and submit "
+"new parts."
+msgstr ""
+"Pokud znáte program git, stačí někam naklonovat soubory z veřejného archivu "
+"`horizon-pool <https://github.com/carrotIndustries/horizon-pool/>`_ "
+". Je vhodné použít program git, aby se udržely vaše místní "
+"kopie aktuální a mohli jste případně publikovat vaše nové díly do veřejného archivu."
+
+#: ../../pool-setup.rst:15
+msgid "Pool manager"
+msgstr ""
+"Správce fondu knihovny"
+
+#: ../../pool-setup.rst:17
+msgid ""
+"Don't know how to git? No problem! Double-click ``horizon-eda.exe`` or "
+"launch ``./horizon-eda`` from your shell and click on 'Download...' to "
+"download the pool. The default pool ``horizon-eda/horizon-pool`` is the "
+"one you want to use. The pool manager will assist you in keeping your "
+"pool up-to-date, see the \"Remote\" tab. It will also assist you by "
+"creating a fork, branches, commits and pull requests on your behalf so "
+"you can contribute to the pool without any git knowledge."
+msgstr ""
+"Nevíte, jak na to? Žádný problém! Poklepejte na ``horizon-eda.exe`` nebo "
+"spusťte ``./horizon-eda`` z vašeho příkazového řádku a klikněte na 'Download...' "
+"pro stažení fondu. Výchozí fond ``carrotIndustries/horizon-pool`` je "
+"ten který potřebujete. Správce fondu vám pomůže s udržováním "
+"vašeho fondu v aktuálním stavu, viz karta \"Remote\". Také vám pomůže s "
+"vytvořením žádosti o doplnění nových součástí do veřejného archivu, a tak můžete snadno přispět do veřejného archivu  bez jakýchkoli znalostí programu git."
+
+#: ../../pool-setup.rst:25
+msgid "Next: :doc:`Create a new Project <new-project>`"
+msgstr ""

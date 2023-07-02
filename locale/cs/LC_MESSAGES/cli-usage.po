@@ -1,0 +1,127 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../cli-usage.rst:2
+msgid "CLI usage"
+msgstr "Použití příkazového řádku (CLI Command Line Interface)"
+
+#: ../../cli-usage.rst:4
+msgid ""
+"The project and the pool manager have pretty much eliminated the need to "
+"run the interactive manipulator and other tools directly from a shell, "
+"but it’s still useful for development."
+msgstr ""
+"Správce projektu a správce fondu do značné míry eliminovali potřebu "
+"spouštět interaktivní manipulátor a další nástroje přímo z příkazového řádku, "
+"ale je to stále užitečné pro vývoj."
+
+#: ../../cli-usage.rst:8
+msgid ""
+"All of the commands below require the environment variable "
+"``HORIZON_POOL`` to point to the pool’s directory (the one with the pool."
+"json and pool.db in it)"
+msgstr ""
+"Všechny níže uvedené příkazy vyžadují proměnnou prostředí "
+"``HORIZON_POOL``, nastavenou na složku fondu (obsahující soubor pool.json a pool.db)"
+
+#: ../../cli-usage.rst:13
+msgid "horizon-imp"
+msgstr "Použití horizon-imp"
+
+#: ../../cli-usage.rst:15
+msgid "Symbol mode:"
+msgstr "Režim symbolů:"
+
+#: ../../cli-usage.rst:16
+msgid "``horizon-imp -y <symbol file>``"
+msgstr "``horizont-imp -y <soubor symbolu>``"
+
+#: ../../cli-usage.rst:18
+msgid "Schematic mode:"
+msgstr "Schematický režim:"
+
+#: ../../cli-usage.rst:19
+msgid "``horizon-imp -c <schematic file> <block file>``"
+msgstr "``horizon-imp -c <soubor schematu> <soubor bloku>``"
+
+#: ../../cli-usage.rst:21
+msgid "Padstack mode:"
+msgstr "Režim padstack:"
+
+#: ../../cli-usage.rst:22
+msgid "``horizon-imp -a <padstack file>``"
+msgstr "``horizon-imp -a <soubor pájecího obrazce>``"
+
+#: ../../cli-usage.rst:24
+msgid "Package mode:"
+msgstr "Režim balíčku:"
+
+#: ../../cli-usage.rst:25
+msgid "``horizon-imp -k <package file>``"
+msgstr "``horizon-imp -k <soubor pouzdra součástky>``"
+
+#: ../../cli-usage.rst:27
+msgid "Board mode:"
+msgstr "Režim desky:"
+
+#: ../../cli-usage.rst:28
+msgid "``horizon-imp -b <board file> <block file> <via directory>``"
+msgstr "``horizon-imp -b <soubor desky> <soubor bloku> <přes složku>``"
+
+#: ../../cli-usage.rst:31
+msgid "horizon-pool"
+msgstr "Použití horizont-pool"
+
+#: ../../cli-usage.rst:33
+msgid ""
+"Most of the -edit and -create commands will spawn $EDITOR with the file "
+"to be edited serialized as YAML."
+msgstr ""
+"Většina příkazů -edit a -create spustí příslušný $EDITOR, který vytvoří odpovídající soubor ve formátu YAML."
+
+# FIXME literal block are not marked for translation, don't know how to include the following translation :
+# "horizon-pool create-unit <soubor jednotky> "
+# "horizon-pool edit-unit <soubor jednotky> "
+# "horizont-pool create-symbol <soubor symbolu> <soubor jednotky>"
+# "horizon-pool create-entity <soubor entity> [<soubor jednotky> ...] "
+# "horizon-pool edit-entity <soubor entity>"
+# "horizon-pool create-package <soubor pouzdra> "
+# "horizont-pool create-padstack <soubor pájecího obrazce>"
+# "horizont-pool update #Aktualizuje SQLite databázi fondu knihovny."
+
+#: ../../cli-usage.rst:50
+msgid "Remember to run ``horizon-pool update`` after creating things"
+msgstr ""
+"Po vytvoření souborů nezapomeňte spustit ``horizon-pool update``"
+
+
+#: ../../cli-usage.rst:54
+msgid "horizon-prj"
+msgstr "Použití horizont-prj"
+
+#: ../../cli-usage.rst:56
+msgid "Use these to create empty blocks, schematics, etc."
+msgstr ""
+"Pomocí těchto příkazů můžete vytvářet prázdné bloky, schémata atd."
+
+# FIXME literal block are not marked for translation, don't know how to include the following translation :
+# "horizon-prj create-block <souboru bloku>"
+# "horizon-prj create-schematic <soubor schematu> <soubor bloku>"
+# "horizon-prj create-board <soubor schematu> <soubor bloku>"

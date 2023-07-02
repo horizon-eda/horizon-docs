@@ -1,0 +1,184 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../create-package.rst:2
+msgid "Creating a Package"
+msgstr "Vytvoření pouzdra součástky"
+
+#: ../../create-package.rst:5
+msgid ""
+"A PCB layout can only be as good as the footprints it uses, that’s why "
+"it’s important to create high-quality footprints (called packages)."
+msgstr ""
+"Rozložení desky plošných spojů může být tak dobré jak dobře jsou vytvořeny pájecí obrazce (footprints) pro jednotlivá pouzdra součástek, které program používá, proto je důležité vytvořit vysoce kvalitní podklady obrazců těchto obrazců (footprints)."
+
+#: ../../create-package.rst:8
+msgid "As far as horizon is concerned a package consists of these things:"
+msgstr "V Horizonu-EDA se pouzdro součástky se skládá z těchto částí:"
+
+#: ../../create-package.rst:10
+msgid "The pads the part gets soldered onto"
+msgstr "Pájecí místa (pads), na které se součást připájí"
+
+#: ../../create-package.rst:12
+msgid "Copper layers (top/bottom/inner)"
+msgstr ""
+"Spoje - měděné vrstvy tras jednotlivých propojení v jednotlivých (horní / dolní / vnitřní) vrstvách "
+
+#: ../../create-package.rst:13
+msgid "Holes (for TH parts)"
+msgstr "Otvory (pro díly TH) "
+
+#: ../../create-package.rst:14
+msgid "Solder mask opening"
+msgstr "Vynechání nepájivé masky "
+
+#: ../../create-package.rst:15
+msgid "Paste mask"
+msgstr "Maska pájecí pasty"
+
+#: ../../create-package.rst:17 ../../create-package.rst:39
+msgid "Package outline"
+msgstr "Obrys pouzdra součástky (Package outline)"
+
+#: ../../create-package.rst:18
+msgid "Assembly outline and reference designator"
+msgstr "Montážní obrys a referenční označení (Assembly outline)"
+
+#: ../../create-package.rst:19
+msgid "Silkscreen graphics and text"
+msgstr "Textový popis součástek (Silkscreen)"
+
+#: ../../create-package.rst:20
+msgid "Courtyard outline"
+msgstr "Obrys zástavby součástky (Courtyard outline)"
+
+#: ../../create-package.rst:23
+msgid "Pads"
+msgstr "Pájecí obrazce (pads)"
+
+#: ../../create-package.rst:25
+msgid ""
+"Each pad is defined by its padstack and parameters applied to the "
+"padstack. For details on padstacks see :ref:`here<Padstacks>`. Since the "
+"pads are probably a package’s most important feature, it’s makes sense to "
+"start with these. You can either place pads manually using the “Place "
+"pad” tool or have them placed automatically according to commonly used "
+"patterns using the “Footprint gen.” dialog available from the top bar. "
+"After having placed the pads, they still have their default size, which "
+"is very likely not what you want. To fix this, select the pads you’d like "
+"to modify and use the “Edit pad” tool to add parameters to a pad. "
+"Depending on the selected padstack, certain parameters are understood. "
+"The most commonly used are obviously pad width and height. Use the "
+"checkmark button next to a parameter to apply it to all selected pads."
+msgstr ""
+"Každý pájecí obrazec je definován několika pájecími místy (padstack) uspořádanými do různéh tvarů a parametry aplikovanými na na tento tvar. Podrobnosti o pájecích místech viz. "
+":ref:`Pájecí místa / plošky (Padstacks)<Padstacks>`. Tyto pájecí obrazce jsou pravděpodobně nejdůležitější vlastností pouzdra součástky, je vhodné s nimi začít. Pájecí místa můžete umístit ručně pomocí příkazu „Place pad“ nebo je nechejte umístit automaticky podle běžně používaných vzorů pomocí příkazu „Footprint gen.“, který je k dispozici na horním panelu. Po umístění pájecích míst mají stále svou výchozí velikost, která patrně není ta, co potřebujete. Chcete-li velikost změnit, vyberte parametry, které chcete upravit a pomocí nástroje „Edit pad“ přidejte parametry do pájecího místa. V závislosti na vybraném tvaru pájecího místa jsou přiřazeny určité parametry. Nejčastěji se používají šířka a výška pájecího místa. Použijte tlačítko zaškrtnutí vedle parametru pro parametry, které se mají použít na všechny vybrané podložky."
+
+#: ../../create-package.rst:41
+msgid ""
+"The package outline is used for visualizing what the part’s outline looks "
+"like, hence it should follow the part’s nominal dimensions. You may use "
+"the “import DXF” tool for importing a DXF drawing obtained from a STEP "
+"model or otherwise. Since the package outline’s purpose is purely visual, "
+"you can use either lines or polygons. Only include pins if they "
+"significantly contribute to the part’s appearance."
+msgstr ""
+"Obrys pouzdra se používá k vizualizaci obrysu součásti "
+"Dá se říct, že by tedy měla sledovat jmenovité rozměry součásti. Můžete použít nástroj „import DXF“ pro import výkresu DXF získaného ze STEP modelu nebo jinak. Protože účel obrysu součásti je čistě "
+"vizuální, můžete použít buď čáry, nebo mnohoúhelníky. Vývody přidejte, pouze pokud "
+"výrazně přispívají ke vzhledu součásti."
+
+#: ../../create-package.rst:49
+msgid "Assembly outline"
+msgstr "Montážní obrys"
+
+#: ../../create-package.rst:51
+msgid ""
+"The assembly outline ends up on the assembly drawing (not yet "
+"implemented) and is intended to aid assembling and inspecting the PCA. "
+"The assembly outline layer thus contains only these items: A polygon "
+"indicating the part’s outline, optionally pins if they significantly "
+"contribute to the part’s appearance and the part’s reference designator. "
+"Opposed to the package outline, the assembly is just a rough "
+"approximation of the part’s shape. It has to include some sort of visual "
+"indication of the part’s pin 1 location. Use the “Draw polygon rectangle” "
+"tool and its decoration options for drawing such outline. For the "
+"reference designator, place a text containing “$RD” with such size, that "
+"it fits withing the assembly outline even when being prefix + 4 digits "
+"long."
+msgstr ""
+"Montážní obrys končí na výkresu sestavy (zatím není implementováno) a jeho účelem je pomoc při montáži a kontrole PCA. Montážní obrysová vrstva tedy obsahuje pouze tyto položky: Mnohoúhelník označující obrys součásti, volitelně vývody, pokud se výrazně přispívají ke vzhledu součásti a referenční označení součásti. Na rozdíl od obrysu pouzdra je montáž pouze hrubá náhrada tvaru součásti. Musí zahrnovat nějaký druh vizuálního označení umístění prvního vývodu součásti. Použijte příkazy  „Draw polygon rectangle” a jeho možnosti dekorace pro kreslení takového obrysu. Pro referenční označení, vložte text obsahující „$ RD“ v takové velikosti, aby se vešel do obrysu sestavy, i když je předpona o 4 číslice delší."
+
+#: ../../create-package.rst:65
+msgid "Silkscreen"
+msgstr "Textový popis součástek"
+
+#: ../../create-package.rst:67
+msgid ""
+"The silkscreen graphics purpose is to clarify a parts location and "
+"orientation during manual assembly and visual inspection, so it should "
+"include some sort of pin 1 marker if the part is orientation-sensitive. "
+"Don’t place a dot at pin 1, instead shorten/elongate the silkscreen "
+"graphics. The recommended line with is 0.15mm. Also place a text “$RD”, "
+"0.15mm in with on the silkscreen layer."
+msgstr ""
+"Účelem textového popisu je objasnit umístění dílů a orientace při ruční montáži a vizuální kontrole, také by měla pomoct pokud je součást citlivá na orientaci, použijte nějakou značku prvního vývodu. Nepoužívejte tečku pro označení prvního vývodu, místo toho sklopte nebo prodlužte grafickou značku. Doporučená tloušťka čáry je 0,15 mm. Také vložte text „$ RD“, s tloušťkou čáry 0,15 mm do hladiny popisu."
+
+#: ../../create-package.rst:75
+msgid "Courtyard"
+msgstr "Obrys zástavby součástky"
+
+#: ../../create-package.rst:77
+msgid ""
+"The courtyard denotes the space needed by the part that mustn’t be "
+"occupied by other parts in order to leave enough room for assembly. Since "
+"the size of the courtyard needs to be adjusted depending on the users "
+"manufacturing requirements, it has to be set using a parameter program. "
+"At 0mm courtyard expansion the courtyard outline is the (rectangular) "
+"hull around copper pads and package outline. To create a rectangular "
+"courtyard outline that can be parametrized, do this:"
+msgstr ""
+"Obrys zástavby označuje prostor potřebný pro plochu kolem součástky, která nesmí být obsazeno jinými součástkami, aby byl ponechán dostatečný prostor pro montáž. Vzhledem k tomu, že velikost obrysu zástavby je třeba upravit v závislosti na uživatelských výrobních požadavcích, musí být nastaven pomocí parametru "
+"programu. Při zvětšení obrysu zástavby 0 mm je obrys zástavby (obdélníkový) kolem pájecích míst a obrysu pouzdra součástky. Chcete-li vytvořit obdélníkový obrys zástavby, který lze parametrizovat, proveďte toto:"
+
+#: ../../create-package.rst:85
+msgid ""
+"Use the “Generate courtyard” tool to generate the initial courtyard at "
+"0mm expansion. If that doesn’t result in the desired polygon, use the "
+"“Draw polygon rectangle” tool for drawing the initial courtyard and set "
+"its parameter class to “courtyard” using the property editor on the right "
+"side of the window."
+msgstr ""
+"Pomocí příkazu „Generate courtyard“ vygenerujete počáteční obrys zástavby na "
+"0 mm rozšíření. Pokud to nemá za následek požadovaný mnohoúhelník, použijte "
+"příkaz „Draw polygon rectangle“ pro nakreslení počátečního obrysu a nastavení "
+"jeho skupiny parametrů na „courtyard“ pomocí editoru vlastností na "
+"pravé straně okna."
+
+#: ../../create-package.rst:91
+msgid ""
+"Open the “Parameters” Window and click on “Insert courtyard program”. If "
+"all goes well, this should add the courtyard program and as the parameter "
+"“Courtyard expansion” set to 0.25mm."
+msgstr ""
+"Otevřete okno „Parameters“ a klikněte na „Insert courtyard program“. Je-li "
+"vše jde správně, měl by se přidat program obrysu zástavby a jeho "
+"parametr „Courtyard expansion“ nastavený na 0,25 mm."

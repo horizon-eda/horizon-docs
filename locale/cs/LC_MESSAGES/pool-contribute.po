@@ -1,0 +1,112 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../pool-contribute.rst:2
+msgid "Contribute to the Pool"
+msgstr ""
+
+#: ../../pool-contribute.rst:4
+msgid ""
+"The official pool at `https://github.com/horizon-eda/horizon-pool/ "
+"<https://github.com/horizon-eda/horizon-pool/>`__ lives from it's user "
+"contributions. There are multiple ways you can help. The most obvious one "
+"is by submitting parts you made."
+msgstr ""
+
+#: ../../pool-contribute.rst:8
+msgid ""
+"To keep the pool nice an clean, only add parts you can actually buy with "
+"their corresponding symbols, entities, etc. So don't add some part called "
+"7805, instead add a MC7805BDTRKG manufactured by ON Semiconductor. Once "
+"you created something you'd like to share, you can use the :doc:`Pool "
+"Manager <pool-mgr>` to upload your creation to the offical pool:"
+msgstr ""
+
+# Here come some stuff salvaged from pool-mgr.po
+#: ../../pool-contribute.rst:15
+msgid "Using the GitHub integration."
+msgstr ""
+"Integrace GitHub"
+
+#: ../../pool-contribute.rst:17
+msgid ""
+"For the GitHub integration to work, the pool has to be downloaded using "
+"the \"Download...\" button on the start Page of the pool manager. The "
+"pool manager will clone the global pool into the ``.remote`` directory in "
+"your local pool. If all goes right, you should never need to touch that "
+"directory. Two operations are available for keeping your local copy up-to-"
+"date and merging your parts into the global pool"
+msgstr ""
+"Aby integrace GitHub fungovala, musí být fond stažen pomocí "
+"tlačítka \"Download...\" na úvodní stránce správce fondu. Správce fondu naklonuje veřejný fond do složkye ``.remote`` v systému vašeho místního fondu. Pokud vše půjde dobře, neměli byste nikdy zasahovat do této složky. K dispozici jsou dvě operace pro uchování vaší místní kopie "
+"aktuální a zahrnutí vašich součástek do veřejného fondu"
+
+#: ../../pool-contribute.rst:25
+msgid "Upgrade pool"
+msgstr ""
+"Aktualizace fondu"
+
+#: ../../pool-contribute.rst:27
+msgid ""
+"This will update your copy of the global pool in the ``.remote`` "
+"directory to the latest commit and ask you which changes you'd like to "
+"have applied to your local pool."
+msgstr ""
+"Tento příkaz aktualizuje vaše kopie globálního fondu ve složce ``.remote`` "
+"od posledního potvrzení a zeptá se vás, jaké změny chcete "
+"použít ve vašem místním fondu."
+
+#: ../../pool-contribute.rst:32
+msgid "Create pull request"
+msgstr ""
+"Vytvoření žádosti o zahrnutí součástek do veřejného fondu"
+
+#: ../../pool-contribute.rst:34
+msgid ""
+"First, add the Parts/Entities/etc. to the \"items to be merged\" list, "
+"then fill in Pull Request title and body. The pool manager will "
+"automatically add items that are needed to not break references. So if "
+"you create an all-new Part with new Unit, Entity and Package, these will "
+"get added to the list when you add the Part. Don't forget to add the new "
+"symbols. After making sure that this is what you want, click the \"Create "
+"pull request\" button. You'll be prompted for your GitHub credentials as "
+"well as your name and email address for the commit author information."
+msgstr ""
+"Nejprve přidejte součástky / entity / atd. do seznamu \"items to be merged\", "
+"poté vyplňte název a tělo žádosti o zahrnutí. Správce fondu bude "
+"automaticky přidávat položky, které jsou nutné, aby nebyly porušeny závislosti. Takže když "
+"vytvoříte zcela novou částku s novou jednotkou, entitou a pouzdrem "
+"přidejte ji do seznamu pro přidání součásti. Nezapomeňte přidat nové "
+"symboly. Poté, co se ujistíte, že to je to, co chcete, klikněte na \"Create "
+"pull request\". Budete vyzváni k zadání přihlašovacích údajů pro server GitHub."
+
+#: ../../pool-contribute.rst:44
+msgid "Helping by reviewing"
+msgstr ""
+
+#: ../../pool-contribute.rst:46
+msgid ""
+"Adding parts is a great thing, but checking parts other people made could "
+"be a good thing as well. More eyes that crosscheck a part against its "
+"datasheet will decrease the chance of something that works. If you "
+"successfully produced a PCB with certain parts on it, you can say "
+"something about solderability as well and this is a stronger indicator, "
+"that the part has no critical mistakes."
+msgstr ""

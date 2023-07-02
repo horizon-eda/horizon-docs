@@ -1,0 +1,71 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../backannotation.rst:2
+msgid "Backannotating connections"
+msgstr "Zpětné úpravy (Backanotation)"
+
+#: ../../backannotation.rst:4
+msgid ""
+"Sometimes, you may want to connect component pins based on their location "
+"on the board, such as connectors or FPGA IO pins. Wouldn't it be nice if "
+"you could define these connections directly in the board editor without "
+"going back and forth between board and schematic for every connection? "
+"With horizon EDA, you can!"
+msgstr ""
+"Někdy můžete potřebovat propojit vývody součástek na základě jejich "
+"umístění na desce, jako například konektory nebo vývody FPGA. Nebylo by krásné, pokud by jste mohli definovat tato spojení přímo v editoru desky bez přechodu tam a zpět mezi editory desky a  schémat pro každý spoj? S Horizonem-EDA je to možné!"
+
+#: ../../backannotation.rst:11
+msgid "How To"
+msgstr "Jak na to"
+
+#: ../../backannotation.rst:13
+msgid ""
+"Use the tool \"Draw connection line\" to connect pads or junctions as "
+"desired. Then, use \"Backannotate connection lines\" to send these "
+"connections over to the schematic editor. The newly created connections "
+"will appear as net stubs. After saving the schematic and reloading the "
+"netlist in the board editor, the connection lines will automatically be "
+"replaced by airwires."
+msgstr ""
+"Pomocí nástroje \"Draw connection line\" (spustit přes mezerník) propojte jednotlivá pájecí místa (plošky), které požadujete propojit. Potom použijte funkci \"Backannotate connection lines\" pro zpětnou změnu v editoru schemat. Nově vytvořená připojení se zobrazí jako prázdné štítky nového přerušeného spoje. Po uložení schématu a aktualizaci seznamu spojů (Reload netlist) v editoru desky, budou spoje automaticky nahrazeny naznačenými spoji, které je nutno následně ručně propojit stopou mědi. Pozn. Pro správnou činnost této funkce je nutné mít spuštěn editor desky a editor schemat současně."
+
+#: ../../backannotation.rst:21
+msgid "Limitations"
+msgstr "Omezení"
+
+#: ../../backannotation.rst:23
+msgid ""
+"Since this feature hasn't been there for very long, some things are still "
+"unsupported:"
+msgstr ""
+"Protože tato funkce není přidána příliš dlouho, některé možnosti nejsou zatím podporovány:"
+
+#: ../../backannotation.rst:26
+msgid "Can't connect two existing nets"
+msgstr "Nelze propojit dva existující spoje"
+
+#: ../../backannotation.rst:27
+msgid ""
+"Chaining connection lines (connecting two lines to one pad/junction) will "
+"not yield the expected result"
+msgstr ""
+"Řetězové spoje (propojení dvou spojů s jedním vývodem) nepřinesou očekávaný výsledek"
