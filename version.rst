@@ -16,20 +16,20 @@ By Application version
 ----------------------
 
 .. csv-table::
-   :header: "Type", "1.3.0", "1.4.0", "2.0.0", "2.1.0", "2.2.0", "2.3.0", "2.4.0"
+   :header: "Type", "1.3.0", "1.4.0", "2.0.0", "2.1.0", "2.2.0", "2.3.0", "2.4.0", "2.5.0"
 
-   Unit, 0, 0, 0, 0, 0, **1**, 1
-   Symbol, 0, 0, 0, 0, **1**, 1, 1
-   Entity, 0, 0, 0, 0, 0, 0, 0
-   Padstack, 0, 0, 0, 0, 0, 0, 0
-   Package, 0, 0, 0, 0, 0, 0, 0
-   Part, 0, 0, **1**, 1, **2**, 2, 2
-   Frame, 0, 0, 0, 0, 0, 0, 0
-   Decal, 0, 0, 0, 0, 0, 0, 0
-   Schematic, 0, 0, **1**, 1, **3**, **6**, **8**
-   Board, 0, **2**, **4**, 4, **7**, **14**, **17**
-   Project, 0, 0, **1**, 1, **2**, 2, **3**
-   Pool, N/A, N/A, N/A, N/A, 0, **1**, 1
+   Unit, 0, 0, 0, 0, 0, **1**, 1, 1
+   Symbol, 0, 0, 0, 0, **1**, 1, 1, 1
+   Entity, 0, 0, 0, 0, 0, 0, 0, 0
+   Padstack, 0, 0, 0, 0, 0, 0, 0, 0
+   Package, 0, 0, 0, 0, 0, 0, 0, 0
+   Part, 0, 0, **1**, 1, **2**, 2, 2, 2
+   Frame, 0, 0, 0, 0, 0, 0, 0, 0
+   Decal, 0, 0, 0, 0, 0, 0, 0, 0
+   Schematic, 0, 0, **1**, 1, **3**, **6**, **8**, 8
+   Board, 0, **2**, **4**, 4, **7**, **14**, **17**, **20**
+   Project, 0, 0, **1**, 1, **2**, 2, **3**, 3
+   Pool, N/A, N/A, N/A, N/A, 0, **1**, 1, 1
 
 
 Changelog
@@ -56,7 +56,10 @@ Board:
   - 15: Add curved tracks
   - 16: Support relative paths for including boards
   - 17: Save plane fragments to a separate file
-  
+  - 18: Increase maximum number of inner layers to 8
+  - 19: Add blind and buried vias
+  - 20: Add via definitions
+
 Schematic:
   - 1: Add custom values on symbols
   - 2: Add hierarchy
