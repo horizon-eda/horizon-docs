@@ -1,6 +1,11 @@
 Building on Windows
 ===================
 
+.. note::
+   Version 2.5 and earlier are built using ``make``,
+   see `the documentation for that version <https://docs.horizon-eda.org/en/v2.5.0/build-win32.html>`_
+   instead.
+
 Install MSYS2
 -------------
 
@@ -40,7 +45,8 @@ Type/paste
    mingw-w64-x86_64-sqlite3  mingw-w64-x86_64-toolchain  \
    mingw-w64-x86_64-zeromq mingw-w64-x86_64-glm zip \
    mingw-w64-x86_64-libgit2 mingw-w64-x86_64-oce \
-   mingw-w64-x86_64-podofo mingw-w64-x86_64-libarchive --needed
+   mingw-w64-x86_64-podofo mingw-w64-x86_64-libarchive \
+   mingw-w64-x86_64-meson mingw-w64-x86_64-cmake --needed
 
 When prompted, just hit return. Sit back and wait for it to install
 what’s almost a complete linux environment.
@@ -62,7 +68,8 @@ Build it
 
 ::
 
-   make -j 4
+   meson setup build
+   meson compile -C build
 
 You may adjust the number to the number of CPUs in your system to speed
 up compilation. Expect 100% CPU load for several minutes. Due to debug
@@ -74,9 +81,6 @@ Running
 You won’t be able to double-click the resulting executables since all
 the required DLLs are in a directory unknown to windows. You’ll have to
 launch them from the mingw shell using ``./horizon-eda`` for example.
-For the pool download to work, you’ll have to copy the file
-``/mingw64/ssl/certs/ca-bundle.crt`` to the directory the directory
-``horizon-eda.exe`` resides in.
 
 Packaging
 ---------
