@@ -8,6 +8,24 @@ Installation
 
 The python module isn't included in the :code:`all` target.  To build it, run :code:`make build/horizon.so`. This requires the python 3 headers to be installed. You can then place it in python's :code:`sys.path` and import it using :code:`import horizon`.
 
+After following the build instructions for your platform (:doc:`linux<build-linux>`, :doc:`freebsd<build-freebsd>`, :doc:`win32<build-win32>`), it may be necessary to install two additional dependencies:
+
+*  pycairo
+*  osmesa
+
+On Ubuntu obtain these packages using:
+
+::
+
+   sudo apt install python3-cairo-dev libosmesa6-dev
+
+After building on unixes it is possible to inform python of the horizon module location by adding this line to :code:`.profile` or :code:`.zshrc`:
+
+::
+
+   export PYTHONPATH=$PYTHONPATH:~/path/to/horizon/build/
+
+
 Usage
 ~~~~~
 
