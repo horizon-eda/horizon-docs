@@ -147,7 +147,10 @@ expand-polygon
 
 ``expand-polygon [ <parameter class> <x0> <y0> <x1> <y1> ... <xn> <yn> ]``
 Pops expansion. Expands the polyon specified by the coordinates in the
-argument by the dimension popped from the stack.
+argument by the dimension popped from the stack. This expansion will
+work for any polygon, including concave shapes (which will become convex
+at the appropriate expansion). Note that some shapes produce interior
+holes at certain expansions, which may not be what is intended.
 
 Example program (from SMD rectangular padstack)
 -----------------------------------------------
