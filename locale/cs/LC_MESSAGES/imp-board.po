@@ -1,0 +1,82 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../imp-board.rst:2
+msgid "Board Editor"
+msgstr "Editor desky plošných spojů DPS (PCB)"
+
+#: ../../imp-board.rst:4
+msgid ""
+"To launch the schematic editor click on “Board” in the project manager."
+msgstr ""
+"Chcete-li spustit editor desky plošných spojů (dále jen desky), klikněte na „Board“ ve správci projektu. Stejně jako všechny ostatní grafické editory je i editor desky v Horizon-EDA založen na Interaktivním manipulátoru"
+
+#: ../../imp-board.rst:6
+msgid ""
+"The board editor keeps an internal copy of the netlist. To update the "
+"netlist, click \"Save\" in the schematic editor for writing the netlist "
+"to disk, then click on ’reload netlist’ or re-open the board editor or "
+"use the action \"Save and reload netlist\" in the the schematic editor."
+msgstr ""
+"Editor desky si udržuje interní kopii seznamu spojů (netlist). Chcete-li aktualizovat "
+"seznam spojů, stiskněte „Save“ (Uložit) v editoru schémat pro zápis seznamu spojů na "
+"disk, pak klikněte v editoru desky na „reload netlist“ pro aktualizaci seznamu spojů nebo znovu otevřete editor desky."
+
+#: ../../imp-board.rst:11
+msgid "Planes"
+msgstr "Vyplněné oblasti (Planes)"
+
+#: ../../imp-board.rst:13
+msgid ""
+"For adding planes, first draw a polygon of the desired shape in a copper "
+"layer. Then use the “Add plane” tool to assign it a plane. Planes with "
+"lower priority will get filled first."
+msgstr ""
+"Pro přidání vyplněných oblastí nejprve nakreslete do hladiny spojů (copper) mnohoúhelník (polygon) požadovaného tvaru. Poté pomocí nástroje „Add plane“ přiřaďte oblast. Pro zobrazení vyplněných oblastí je nutné aktualizovat tyto oblasti pomocí příkazu „Update all Planes“. Oblasti s "
+"nižší prioritou se vyplní jako první."
+
+#: ../../imp-board.rst:18
+msgid "Vias"
+msgstr "Prokovené otvory (Vias)"
+
+#: ../../imp-board.rst:20
+msgid ""
+"Before placing a via, create a default rule for vias in the “Rules” "
+"window and assign it the desired padstack."
+msgstr ""
+"Před vložením prokoveného otvoru vytvořte výchozí pravidlo pro tyto otvory v okně pravidel „Rules“ "
+"a přiřaďte jim požadovaný tvar (padstack)."
+
+#: ../../imp-board.rst:24
+msgid "Diffpairs"
+msgstr "Diferenciální páry"
+
+#: ../../imp-board.rst:26
+msgid ""
+"To create a diffpair see :ref:`Schematic Diffpairs<Schematic "
+"Diffpairs>` . Before routing a diffpair, create a diffpair rule "
+"specifying track width and gap. To route a diffpair, use the “Route diff. "
+"pair” tool."
+msgstr ""
+"Jedná se o speciální útvar trasy signálového páru se stanovenými parametry vzájemných elektrických vlastností. Chcete-li vytvořit diferenciální pár, podívejte se na :ref:`Diferenciální páry<Schematic Diffpairs>`. Před trasováním diferneciálního páru, vytvořte pravidlo určující šířku stopy a mezeru tohoto páru. Chcete-li vést trasu, použijte nástroj „Route diff“."
+
+#: ../../imp-board.rst:31
+msgid "Screenshot"
+msgstr "Snímek obrazovky"

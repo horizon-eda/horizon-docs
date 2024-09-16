@@ -1,0 +1,137 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../build-win32.rst:2
+msgid "Building on Windows"
+msgstr "Sestavení (kompilace) programu na operačním systému Windows"
+
+#: ../../build-win32.rst:5
+msgid "Install MSYS2"
+msgstr "Nainstalujte program MSYS2"
+
+#: ../../build-win32.rst:7
+msgid ""
+"Download and run the msys2 installer from http://msys2.github.io/ I’ve "
+"only tested with the 64bit version, 32bit should work as well (but come "
+"on, it’s 2017…) Make sure that the path you select for installation "
+"doesn’t contain any spaces. (Don’t blame me for that one)"
+msgstr ""
+"Stáhněte si a spusťte instalátor programu msys2 z http://msys2.github.io/ Mám "
+"testováno pouze s 64bitovou verzí, 32bit by měla fungovat také. Ujistěte se, že cesta, kterou jste vybrali pro instalaci neobsahuje žádné mezery (v názvech složek)."
+
+#: ../../build-win32.rst:13
+msgid "Start MSYS console"
+msgstr "Spusťte konzolu MSYS"
+
+#: ../../build-win32.rst:15
+msgid ""
+"Launch the Start Menu item “MSYS2 mingw 64 bit” you should be greeted "
+"with a console window. All steps below refer to what you should type into "
+"that window."
+msgstr ""
+"Spusťte položku nabídky Start „MSYS2 mingw 64 bit“, která by se měla zobrazit "
+"v okně konzoly. Všechny níže uvedené kroky se týkají toho, co by jste měli napsat "
+"do toho okna."
+
+#: ../../build-win32.rst:20
+msgid "Install updates"
+msgstr "Nainstalujte aktualizace"
+
+#: ../../build-win32.rst:22
+msgid "Type"
+msgstr "Napište"
+
+#: ../../build-win32.rst:28
+msgid ""
+"if it tells you to close restart msys, close the console window and start "
+"it again. Then run ``pacman -Syu`` again."
+msgstr ""
+"pokud vám řekne, že chce restartovat před restartováním, zavřete okno konzoly a "
+"po restartu znovu spusťte program ``pacman -Syu``."
+
+#: ../../build-win32.rst:32
+msgid "Install dependencies"
+msgstr "Nainstalujte související součásti"
+
+#: ../../build-win32.rst:34
+msgid "Type/paste"
+msgstr "Napište / vložte"
+
+#: ../../build-win32.rst:45
+msgid ""
+"When prompted, just hit return. Sit back and wait for it to install "
+"what’s almost a complete linux environment."
+msgstr ""
+"Až budete vyzváni, stačí stisknout klávesu Enter. Posaďte se a počkejte, až instalátor dokončí "
+"instalaci téměř kompletního linuxového vývojového prostředí."
+
+#: ../../build-win32.rst:48
+msgid ""
+"Before continuing you may change to another directory. It easiest to type "
+"``cd`` followed by a space and drop the folder you want to change to on "
+"the window."
+msgstr ""
+"Než budete pokračovat, můžete přejít do jiné složky. Je to jednoduché "
+"zadejte `` cd``, mezerník a přetáhněte složku, do které chcete přejít "
+"do okna konzoly."
+
+#: ../../build-win32.rst:53
+msgid "Clone horizon"
+msgstr "Klonovat zdrojový kód programu Horizon-EDA"
+
+#: ../../build-win32.rst:61
+msgid "Build it"
+msgstr "Sestavení (kompilace) programu ze zdrojového kódu"
+
+#: ../../build-win32.rst:67
+msgid ""
+"You may adjust the number to the number of CPUs in your system to speed "
+"up compilation. Expect 100% CPU load for several minutes. Due to debug "
+"symbols the resulting executables are of considerable size."
+msgstr ""
+"Číslo 4 na konci můžete upravit podle počtu procesorů ve vašem systému pro rychlejší kompilaci. Očekávejte 100% zatížení procesoru (CPU) po dobu několika minut dle výkonu počítače. Z důvodu zapnuté volby vkládání ladících symbolů mají výsledné spustitelné soubory značnou velikost."
+
+#: ../../build-win32.rst:72
+msgid "Running"
+msgstr "Spuštění programu"
+
+#: ../../build-win32.rst:74
+msgid ""
+"You won’t be able to double-click the resulting executables since all the "
+"required DLLs are in a directory unknown to windows. You’ll have to "
+"launch them from the mingw shell using ``./horizon-eda`` for example. For "
+"the pool download to work, you’ll have to copy the file ``/mingw64/ssl/"
+"certs/ca-bundle.crt`` to the directory the directory ``horizon-eda.exe`` "
+"resides in."
+msgstr ""
+"Po kompilaci nebudete moci dvakrát kliknout na výsledné spustitelné soubory protože požadované knihovny DLL nejsou ve složce známé systému Windows. Budete muset spustit z příkazového řádku prostředí Mingw například pomocí příkazu ``./horizon-eda``. "
+"Aby fungovalo stahování fondu, musíte zkopírovat soubor ``/mingw64/ssl/certs/ca-bundle.crt`` do složky obsahující ``horizon-eda.exe``."
+
+#: ../../build-win32.rst:82
+msgid "Packaging"
+msgstr "Vytvoření archivu"
+
+#: ../../build-win32.rst:84
+msgid ""
+"To create the zip archive as it’s available from the CI, run ``./"
+"make_bindist.sh``."
+msgstr ""
+"Chcete-li vytvořit archiv ZIP, jak je dostupný ke stažení, spusťte příkaz "
+"``./make_bindist.sh``."
