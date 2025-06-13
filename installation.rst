@@ -55,6 +55,15 @@ Arch Linux
 
 For Arch Linux, there's an `AUR package <https://aur.archlinux.org/packages/horizon-eda>`_.
 
+Guix
+"""""
+
+Horizon EDA is `included in Guix <https://hpc.guix.info/package/horizon-eda>`_.
+
+::
+
+  guix install horizon-eda
+
 NixOS
 """""
 
