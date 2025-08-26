@@ -1,0 +1,233 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../parameter-programs.rst:2
+msgid "Parameter Programs"
+msgstr "Parametry programu"
+
+#: ../../parameter-programs.rst:4
+msgid ""
+"As explained on other pages, horizon supports parametrizable padstacks "
+"and (to a limited extent) packages. To apply the given parameters to the "
+"existing geometry, each padstack and the like is accompanied by a small "
+"program."
+msgstr ""
+"Jak již bylo popsáno jinde v dokumentu, Horizon-EDA podporuje parametrizovatelné tvary pájecích míst "
+"a (v omezené míře) pouzder součástek. Chcete-li použít dané parametry na existující geometrii, každé pájecí místo a podobné objekty je možné změnit pomocí krátkého makra."
+
+#: ../../parameter-programs.rst:9
+msgid ""
+"These programs are written in a custom stack-based language. Users of HP "
+"calculators should feel familiar. Since there aren’t any loops, these "
+"programs will terminate in finite time. The stack holds signed 64bit "
+"integers. Conceptually, it grows from top to bottom."
+msgstr ""
+"Tyto makra jsou psány ve vlastním zásobníkovém jazyce. Uživatelé kalkulaček HP se měli cítit jako doma. Protože v programu není možné provádět žádné smyčky, budou tyto programy ukončeny v daném čase. Zásobník obsahuje 64bitová celá čísla se znaménkem. Koncepčně roste shora dolů."
+
+#: ../../parameter-programs.rst:15
+msgid "Syntax"
+msgstr "Syntaxe"
+
+#: ../../parameter-programs.rst:17
+msgid ""
+"On the top level, a program is made up of tokens. Tokens are separated by "
+"any amount of whitespace."
+msgstr ""
+"Na nejvyšší úrovni je program tvořen značkami. Značky jsou oddělené libovolným množstvím mezer."
+
+#: ../../parameter-programs.rst:20
+msgid "Token types:"
+msgstr "Typy značek:"
+
+#: ../../parameter-programs.rst:22
+msgid "Integers: a number, optionally prefixed by a sign"
+msgstr "Celá čísla: číslo, volitelně opatřené znaménkem"
+
+#: ../../parameter-programs.rst:23
+msgid ""
+"Dimension: a number with optional fractional part, suffixed by “mm”. The "
+"float before mm will get multiplied by 1e6, since horzion’s internal unit "
+"of measurement is 1nm"
+msgstr ""
+"Rozměr: číslo s volitelnou zlomkovou částí, s příponou „mm“ plovoucí řádová značka před značkou mm se vynásobí 1x10^6, od vnitřní jednotka měření programu Horizon-EDA je 1nm"
+
+#: ../../parameter-programs.rst:26
+msgid "Mathematical operators such as: ``+ - * /``"
+msgstr "Matematické operátory, jako například: ``+ - * /``"
+
+#: ../../parameter-programs.rst:27
+msgid "Strings"
+msgstr "Řetězce znaků"
+
+#: ../../parameter-programs.rst:28
+msgid ""
+"Argument start ``[`` and end ``]`` any token between these two will get "
+"appended to the last command’s arguments"
+msgstr ""
+"Parametry začínají znakem ``[`` a končí ``]`` jakákoliv značka mezi těmito dvěma znaky bude přidána jako parametr předchozího příkazu"
+
+#: ../../parameter-programs.rst:32
+msgid "Generic Commands"
+msgstr "Obecné příkazy"
+
+#: ../../parameter-programs.rst:35
+msgid "Zero-operand"
+msgstr "Nulový operand"
+
+#: ../../parameter-programs.rst:37
+msgid ""
+"``get-parameter [ <parameter> ]`` gets paramter and pushes it onto the "
+"stack"
+msgstr ""
+"``get-parameter [<parameter>]`` načte paramter a vloží jej na zásobník"
+
+#: ../../parameter-programs.rst:41
+msgid "One-operand"
+msgstr "Jeden operand"
+
+# FIXME literal block are not marked for translation, don't know how to include the following translation :
+# "Před operací vypadá zásobník takto:"
+# "Operátory: | Hodnoty v zásobníku "
+# "dup | a a "
+# "chs | -a"
+
+#: ../../parameter-programs.rst:59
+msgid "Two-operand"
+msgstr "Dva operandy"
+
+# FIXME literal block are not marked for translation, don't know how to include the following translation :
+# "Před operací vypadá zásobník takto:"
+# "Operátory: | Hodnoty v zásobníku "
+# "+    | a+b "
+# "-    | a-b "
+# "*    | a*b "
+# "/    | a/b "
+# "dupc | a b a b (Duplikování souřadnic)"
+
+#: ../../parameter-programs.rst:82
+msgid "Three-operand"
+msgstr "Tři operandy"
+
+# FIXME literal block are not marked for translation, don't know how to include the following translation :
+# "Před operací vypadá zásobník takto:"
+# "Operátory: | Hodnoty v zásobníku "
+# "+xy | a+c b+c "
+# "-xy | a-c b-c"
+
+#: ../../parameter-programs.rst:104
+msgid "Padstack commands"
+msgstr "Příkazy pro pájecí místa"
+
+#: ../../parameter-programs.rst:106
+msgid ""
+"In order for an object (shape, etc.) to be manipulated by the program, it "
+"needs to be assigned a parameter class. ## set-shape ``set-shape "
+"[ <parameter class> <form> ]`` Sets a shape to the specified form or "
+"moves it to the specified position Valid forms:"
+msgstr ""
+"Aby program mohl manipulovat s objektem (tvaru atd.), "
+"musí být přiřazena třída parametrů. ## set-shape "
+"``set-shape [<třída parametrů> <form>]`` Nastaví tvar na zadaný "
+"formulář nebo jej přesune na určenou pozici Platného formuláře:"
+
+#: ../../parameter-programs.rst:111 ../../parameter-programs.rst:134
+msgid "``rectangle``, pops height, width"
+msgstr "``obdélník``, zobrazí výšku, šířku"
+
+#: ../../parameter-programs.rst:112
+msgid "``circle``, pops diamater"
+msgstr "``kruh``, zobrazí průměr"
+
+#: ../../parameter-programs.rst:113
+msgid "``obround``, pops height, width"
+msgstr "``obround``, zobrazí výšku, šířku"
+
+#: ../../parameter-programs.rst:114
+msgid "``position``, pops y, x"
+msgstr "``pozice``, zobrazí polohu y, x"
+
+#: ../../parameter-programs.rst:117
+msgid "set-hole"
+msgstr "Zadání otvoru"
+
+#: ../../parameter-programs.rst:119
+msgid ""
+"``set-hole [ <parameter class> <shape> ]`` Sets a hole to the specified "
+"shape Valid shapes:"
+msgstr ""
+"``set-hole [<třída parametrů> <shape>]`` Nastaví díru na specifikovaný tvar z přednastavených možností:"
+
+#: ../../parameter-programs.rst:122
+msgid "``round``, pops diameter"
+msgstr "``kulatý``, zobrazí průměr"
+
+#: ../../parameter-programs.rst:123
+msgid "``slot``, pops length, diameter"
+msgstr "``slot``, zobrazí délku, průměr"
+
+#: ../../parameter-programs.rst:126
+msgid "Polygon commands (padstack and package)"
+msgstr "Polygonové příkazy (pájecí místa a pouzdra součástek)"
+
+#: ../../parameter-programs.rst:129
+msgid "set-polygon"
+msgstr "Zadání polygonu"
+
+#: ../../parameter-programs.rst:131
+msgid ""
+"``set-polygon [ <parameter class> <shape> <x0> <y0> ]`` Sets a polygon to "
+"the specified shape with center at (x0,y0) Valid shapes:"
+msgstr ""
+"``set-polygon [<třída parametrů> <shape> <x0> <y0>]`` Nastaví polygon "
+"před připraveného tvaru se středem na (x0, y0) z vybraných možností:"
+
+#: ../../parameter-programs.rst:135
+msgid "``circle``, pops diameter"
+msgstr "``kruh``, zobrazí průměr"
+
+#: ../../parameter-programs.rst:138
+msgid "set-polygon-vertices"
+msgstr "Zadání vrcholů polygonu"
+
+#: ../../parameter-programs.rst:140
+msgid ""
+"``set-polygon-vertices [ <parameter class> <n_vertices> ]`` Pops "
+"``n_vertices`` coordinates from the stack and replaces the polygon's "
+"vertices with them."
+msgstr ""
+"`` set-polygon-vertices [<třída parametrů> <n_vertices>] `` Načte ``n_vertices`` souřadnic vrcholů ze zásobníku a vytvoří z nich mnohoúhelník."
+
+#: ../../parameter-programs.rst:145
+msgid "expand-polygon"
+msgstr "Vytvoření polygonu"
+
+#: ../../parameter-programs.rst:147
+msgid ""
+"``expand-polygon [ <parameter class> <x0> <y0> <x1> <y1> ... <xn> "
+"<yn> ]`` Pops expansion. Expands the polyon specified by the coordinates "
+"in the argument by the dimension popped from the stack."
+msgstr ""
+"``expand-polygon [<třída parametrů> <x0> <y0> <x1> <y1> ... <xn> <yn>]`` "
+"Vytvoří polygon určený hodnotami souřadnic v parametrech načtených ze zásobníku."
+
+#: ../../parameter-programs.rst:152
+msgid "Example program (from SMD rectangular padstack)"
+msgstr "Příklad programu (pro SMD obdélníkové pájecí místo)"
+

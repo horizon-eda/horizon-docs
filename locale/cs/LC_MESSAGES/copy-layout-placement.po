@@ -1,0 +1,116 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../copy-layout-placement.rst:2
+msgid "Copying layout and placement"
+msgstr "Kopírování rozmístění a umístění"
+
+#: ../../copy-layout-placement.rst:6
+msgid "Motivation"
+msgstr "Motivace"
+
+#: ../../copy-layout-placement.rst:8
+msgid ""
+"Often times, your design includes similar-but-not-identical sections such "
+"as voltage regulators. Wouldn’t it be nice if you’d only had to do layout "
+"and placement once and then copy it to the other instances? Horzion EDA "
+"lets you do just that in a simple two-step process."
+msgstr ""
+"Návrh desky plošného spoje často obsahuje podobné, ale ne shodné celky jako jsou např. regulátory napětí. Nebylo by hezké, kdyby stačilo udělat rozmístění jednou a potom zkopírovat do ostatních kopií? Technologie Horzion-EDA vám to umožní v jednoduchém dvoustupňovém procesu."
+
+#: ../../copy-layout-placement.rst:14
+msgid "Groups & Tags"
+msgstr "Skupiny a značky"
+
+#: ../../copy-layout-placement.rst:16
+msgid ""
+"For this feature to work, you’ll first need to tell horizon EDA how the "
+"components fit together. This is accomplished by assigning groups and "
+"tags to components. Each section, i.e. all components associated with one "
+"voltage regulator, get assigned one group. To do so, select all symbols "
+"of one section and use the tool “Set new group” to assign all of them to "
+"a new group. For making groups and tags visible on the schematic, use the "
+"“Toggle group & tag visibility”. A components group and tag will then "
+"show up below the reference designator."
+msgstr ""
+"Aby tato funkce fungovala, musíte nejprve sdělit Horizonu-EDA, jak spolu komponenty souvisí. Toho je dosaženo přiřazením skupin a značek ke komponentám. Každá sekce, tj. Všem komponentám spojeným s "
+"jedním regulátorem napětí, přidělte jednu skupinu. Vyberte všechny symboly jedné sekce a pomocí příkazu „Set new group“ přiřaďte všechny do nové skupiny. Pro zviditelnění skupin a značek na schematu použijte „Toggle group & tag visibility“. Skupina komponent a značka se poté zobrazí pod referenčním označením."
+
+#: ../../copy-layout-placement.rst:25
+msgid ""
+"To tell horizon EDA the matching components in each group, these get "
+"assigned identical tags. Since a newly-placed component will already be "
+"assigned a unique tag and groups and tags get preserved on copy/paste "
+"other instances of the same circuit will likely have the appropriate tags "
+"already set. To change the tag on a component, use the “Set tag” tool."
+msgstr ""
+"Abychom odlišili v Horizonu-EDA související komponenty v každé skupině, dostanou přiřazené shodné značky. Protože nově umístěná součást již bude mít shodnou značku a skupinu a značky zůstanou zachovány při kopírování / vkládání jiné kopie stejného okruhu budou pravděpodobně mít vhodné značky již nastaveny. Chcete-li změnit značku na součásti, použijte příkaz „Set tag“."
+
+#: ../../copy-layout-placement.rst:32
+msgid ""
+"When you’re done, the schematic should roughly look like this (with the "
+"boxes added for clarification). All components inside a yellow box belong "
+"to the same group, all inside a red box belong to the same tag."
+msgstr ""
+"Až budete hotovi, schéma by mělo vypadat zhruba takto (obdélníky přidány pro názornost). Všechny komponenty uvnitř žlutého obdélníku patří do stejné skupiny, vše uvnitř červeného pole patří ke stejné značce."
+
+#: ../../copy-layout-placement.rst:38
+msgid ""
+"You may use the “Highlight group/tag” action to make sure that you got "
+"the assignments right."
+msgstr ""
+"Chcete-li se ujistit, že jste udělali přiřazení správně, můžete použít akci „Highlight group/tag“."
+
+#: ../../copy-layout-placement.rst:42
+msgid "Board"
+msgstr "Deska"
+
+#: ../../copy-layout-placement.rst:44
+msgid "Place and route any group as usual."
+msgstr "Umístěte a trasujte nějakou skupinu jako obvykle."
+
+#: ../../copy-layout-placement.rst:47
+msgid "Copy placement"
+msgstr "Kopírovat umístění"
+
+#: ../../copy-layout-placement.rst:49
+msgid ""
+"For each group, place the package you’d like the other packages to be "
+"referenced to at the desired position and place all other packages "
+"anywhere. Then, select all packages of the group that you’d like to apply "
+"the placement to and start the “Copy placement” tool. Click on the "
+"reference package (any pad or centroid) in the already placed group and "
+"all selected packages will be placed accordingly."
+msgstr ""
+"Pro každou skupinu umístěte pouzdro součástky tak, aby ostatní pouzdra součástek byly odkázány na požadované místo a umístěte okolo všechny ostatní pouzdra součástek. Poté vyberte všechny součástky skupiny, které chcete znovu použít a spusťte nástroj „Copy placement“. Klikněte na referenční pouzdro (kterékoli pájecí místo nebo středový bod) v již umístěné skupině a všechny vybrané součástky budou umístěny shodným způsobem."
+
+#: ../../copy-layout-placement.rst:57
+msgid "Copy tracks"
+msgstr "Kopírování rozvržení"
+
+#: ../../copy-layout-placement.rst:59
+msgid ""
+"Select all tracks (other objects will be ignored) you want to copy in the "
+"routed group, start the “Copy tracks” tool and click on any package (any "
+"pad or centroid) in the destination group."
+msgstr ""
+"Vyberte všechny spoje (ostatní objekty budou ignorovány), které chcete kopírovat "
+"v natrasované skupině, spusťte příkaz „Copy tracks“ a klikněte na libovolné pouzdro "
+"(libovolné pájecí místo nebo středový bod) v cílové skupině."

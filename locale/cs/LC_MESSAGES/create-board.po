@@ -1,0 +1,136 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../create-board.rst:2
+msgid "Create a Board"
+msgstr ""
+
+#: ../../create-board.rst:4
+msgid "Open the board editor from the Project manager."
+msgstr ""
+
+#: ../../create-board.rst:9
+msgid "Draw a Board Outline"
+msgstr ""
+
+#: ../../create-board.rst:11
+msgid ""
+"Draw a outline by first selecting the \"Outline\" Layer in the Layers "
+"Panel and then selecting the \"Draw polygon rectangle\" Tool by typing :"
+"kbd:`d Y` (or use the Spacebar menu):"
+msgstr ""
+
+#: ../../create-board.rst:16
+msgid "Place the Packages"
+msgstr ""
+
+#: ../../create-board.rst:18
+msgid ""
+"Place packages on the board using by typing :kbd:`p p` (this time it "
+"stands for \"Place Package\"). If you still have the Schematic Editor "
+"open you can also select a Symbol and use the \"Place on Board\" Tool by "
+"clicking it's button in the top bar."
+msgstr ""
+
+#: ../../create-board.rst:20
+msgid ""
+"If you select Parts in the Schematic Editor they will also be highlighted "
+"in the Board Editor. If you change something in the Schematic Editor "
+"bring the changes from the schematic to the board, by saving the "
+"schematic and clicking 'reload netlist' in the board editor."
+msgstr ""
+
+#: ../../create-board.rst:24
+msgid ""
+"If you want to place a part on the bottom of the board, press :kbd:`e` to "
+"flip it to the bottom side. If you are working a lot on the bottom you "
+"can use the \"View bottom\" tool to flip the whole board around."
+msgstr ""
+
+#: ../../create-board.rst:27
+msgid "Add Planes"
+msgstr ""
+
+#: ../../create-board.rst:29
+msgid ""
+"If you want to use a Ground Plane now would be a good time to add it:"
+msgstr ""
+
+#: ../../create-board.rst:31
+msgid ""
+"Select the layer you want to have the plane on (Top- or Bottom-Copper)"
+msgstr ""
+
+#: ../../create-board.rst:32
+msgid "Draw a polygon rectangle by typing :kbd:`d Y`"
+msgstr ""
+
+#: ../../create-board.rst:33
+msgid ""
+"Right-Click one of the Edges of the newly added polygon and select \"Add "
+"Plane\""
+msgstr ""
+
+#: ../../create-board.rst:34
+msgid ""
+"In the Window that pops up select the GND net (if it is not there you "
+"didn't add the power net in the Schematic)"
+msgstr ""
+
+#: ../../create-board.rst:38
+msgid ""
+"If the solid filled color of the plane annoys you, you can switch the "
+"display style to something else by clicking onto the colored square left "
+"of the layer:"
+msgstr ""
+
+#: ../../create-board.rst:43
+msgid "Route the Nets"
+msgstr ""
+
+#: ../../create-board.rst:45
+msgid ""
+"To route tracks between the parts you connected in the Schematic, type :"
+"kbd:`x` and drag from any pin that starts an airwire:"
+msgstr ""
+
+#: ../../create-board.rst:51
+msgid ""
+"The track will always be routed on the layer you have selected, you can "
+"quickly select the Top Copper Layer by pressing :kbd:`1` and the Bottom "
+"Copper Layer by pressing :kbd:`2`."
+msgstr ""
+
+#: ../../create-board.rst:53
+msgid ""
+"If you want to change sides in the middle of a track you can place a via "
+"by pressing :kbd:`v` and then the number of the layer you want to "
+"continue."
+msgstr ""
+
+#: ../../create-board.rst:57
+msgid ""
+"Once you are done, check out the 3D view of your part, and export Gerbers "
+"using the menu point \"Fabrication Output\" in the application menu."
+msgstr ""
+
+#: ../../create-board.rst:63
+msgid "Next: :doc:`Look at a Example Project <example-project>`"
+msgstr ""

@@ -1,0 +1,70 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 19:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../entries.rst:2
+msgid "Numeric Entries"
+msgstr ""
+
+#: ../../entries.rst:4
+msgid ""
+"All numeric entries in horizon support basic two-operand math as well as "
+"some other goodies."
+msgstr ""
+
+#: ../../entries.rst:6
+msgid "They look like these:"
+msgstr ""
+
+#: ../../entries.rst:10
+msgid ""
+"Both point and comma are recognized as a decimal separator regardless of "
+"locale settings. By default all numbers are treated as millimeters. "
+"Suffixing a number with an ``i`` or ``in`` will treat it as inches. Use "
+"``mi`` or ``mil`` to convert from thous."
+msgstr ""
+
+#: ../../entries.rst:12
+msgid ""
+"Additionally, two-operand infix math is supported, so you can to this:"
+msgstr ""
+
+#: ../../entries.rst:14
+msgid "Addition: ``1+2``"
+msgstr ""
+
+#: ../../entries.rst:16
+msgid "Subtraction: ``1-2``"
+msgstr ""
+
+#: ../../entries.rst:18
+msgid "Multiplication: ``3*2``"
+msgstr ""
+
+#: ../../entries.rst:20
+msgid "Division: ``3/2``"
+msgstr ""
+
+#: ../../entries.rst:22
+msgid "Average :math:`\\frac{ a+b }{2}`: ``3|2``"
+msgstr ""
+
+#: ../../entries.rst:24
+msgid "Adding mm and inch: ``1in+2mm``"
+msgstr ""

@@ -1,0 +1,193 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# FIXME here comes some text that doesn't look like to be a one to one translation of the original text
+#: ../../pool-elements.rst:2
+msgid "Elements of a Part"
+msgstr ""
+"Fond knihovny součástek, pouzder, pájecích míst a schematických značek (Pool)"
+
+# FIXME I've dropped a bunch of the previous text here, I cannot reconcile with the original english document, at least I've tried to stay in sync with the rest of the document
+#: ../../pool-elements.rst:4
+msgid ""
+"A final Part is composed of multiple elements, that are stored "
+"independently from each other in the Pool."
+msgstr ""
+"Co to vlastně je fond knihovny součástek (Pool)? Pro funkci programu je potřeba organizovat mnoho souborů pouzder součástek, symbolů a podobných v jakýchsi knihovnách. (Moje) zkušenost ukázala, že jsou často chaotické a správa verzí je obtížná, protože mnoho nezávislých částí definic je vloženo do jednoho souboru. Zejména toto ztěžuje spolupráci."
+"V Horizonu-EDA neexistují knihovny. Místo toho všechny neprojektové součásti (symboly atd.) jsou umístěny do jednoho fondu (repozitáře). Stejně jako přístup do „centrální knihovny“, která je běžnější spíše ve firemních programech pro tvorbu desek plošných spojů. I když si můžete vytvořit svůj vlastní fond, důrazně se doporučuje používat tento fond "
+"`https://github.com/carrotIndustries/horizon-pool/ <https://github.com/carrotIndustries/horizon-pool/>`__. Chcete-li do něj přidat nové díly, jednoduše odešlete požadavek na přidání do veřejné knihovny pomocí příkazu \"Merge\"."
+"Nyní je fond organizován pomocí značek místo hierarchického "
+"systému, protože tyto často vedou k záměně nad aspekty, jako je tomu, zda "
+"skupiny dílů podle výrobce nebo jiné atributy."
+"Aby byl fond uspořádaný, přidávejte pouze díly, které můžete skutečně koupit s jejich odpovídajícími symboly, entity atd. Takže nepřidávejte součástku s názvem 7805, místo toho přidejte MC7805BDTRKG vyrobený společností ON Semiconductor."
+"Každá z níže uvedených položek je uložena v jednom souboru s příponou .json v příslušné hlavní složce, tj. /symbols, /parts, atd. Přesné umístění v této složce je nepodstatné, pokud je soubor json uložen ve "
+"správné hlavní složce. Je důležité, aby soubory měli příponu „.json“, aby byly nalezeny Správcem fondu. Chcete-li pohodlně vyhledávat díly je možné vložené vyhledávací údaje ze všech souborů json řadit pomocí databáze sqlite. To je umožněno tlačítkem 'Update pool' ve Správci fondu."
+" Struktura fondu "
+"Pro pochopení souvislostí jednotlivých souborů ve fondu je nutné pochopit jejich strukturu, která je na níže uvedeném obrázku, nebo v případě nečitelnosti je možno ji vidět "
+"`zde <https://github.com/carrotIndustries/horizon/blob/master/doc/pool.pdf>`__"
+
+#: ../../pool-elements.rst:7
+msgid "Parts"
+msgstr "Součástky (Parts)"
+
+#: ../../pool-elements.rst:9
+msgid ""
+"On top of pool's structure there is the part. To avoid redundancy and "
+"alow faster changes, a part can inherit its definition (or parts of it) "
+"from another part. This is intended to be used for groups of parts that "
+"only differ in some property like resistance or output voltage for fixed "
+"voltage regulators. Each part can be accompanied with parametric data to "
+"make it easier to search for. Right now, this feature is only implemented "
+"for resistors and capacitors."
+msgstr ""
+"Na vrcholu struktury fondu je součástka (Part). Chcete-li se vyhnout zdvojení, "
+"součástka může zdědit svoji definici z jiné součástky. To je určeno pro použití ve skupině součástí, které se liší pouze v některých vlastnostech jako odpor nebo výstupní napětí pro pevné regulátory napětí. Každá součástka může být doplněna parametrickými daty, aby bylo vyhledávání snadnější. Tato funkce je zatím ve vývoji, protože není k dispozici žádné uživatelské rozhraní pro součástky založené na parametrických datech. Součástky také obsahují mapování Entity vývodů k pájecím obrazcům pouzder."
+
+#: ../../pool-elements.rst:14
+msgid ""
+"In addition to it's data the part is connected to both a Entity and a "
+"Package. The Part stores how the pins of each Gate in the Entity map to "
+"the pads in the Package (e.g. in the case of the NAND it would map Input "
+"A to the corresponding Pin on a DIP 14 package)."
+msgstr ""
+
+#: ../../pool-elements.rst:20
+msgid "Packages"
+msgstr "Pouzdra (Packages)"
+
+#: ../../pool-elements.rst:22
+msgid ""
+"A Package defines the footprint of a part. If the part's manufacturer "
+"provides a reasonable footprint recommendation, use this one. Only use "
+"generic packages if there isn't any. For details on packages see "
+":doc:`create-package`."
+msgstr ""
+"Pouzdro definuje průmět (otisk) půdorysného tvaru součásti na desku plošného spoje. Pokud výrobce součástky "
+"definuje doporučený tvar průmětu, použijte tento. Používejte pouze "
+"obecné pouzdra, pokud odpovídající neexistují. Podrobnosti o pouzdrech viz. "
+":doc:`Vytvoření pouzdra součástky <create-package>`."
+
+#: ../../pool-elements.rst:28
+msgid "Entities"
+msgstr "Entity (Entities)"
+
+#: ../../pool-elements.rst:30
+msgid ""
+"An Entity is a Part's netlist representation and consists of one or more "
+"Units. Parts that are logically the same like different shapes of USB "
+"connectors therefore can all share the same Entity, e.g. \"USB connector "
+"with shield and ID\". The Symbol for each Unit in the Entity can be "
+"placed independently on the schematic."
+msgstr ""
+"Entita je reprezentace součásti v seznamu spojů (netlist). Díly, které jsou logicky "
+"stejné jako např. různé typy konektorů USB proto mohou všechny sdílet "
+"stejnou entitu, např. \"USB konektor se stíněním a ID\". Vlastní součástky se sestávají z jedné nebo více Jednotek (Units)."
+
+#: ../../pool-elements.rst:36
+msgid "Units"
+msgstr "Jednotky (Units)"
+
+#: ../../pool-elements.rst:38
+msgid ""
+"A Unit actually defines a part's logical pins. For parts that only "
+"consist of one \"gate\" like a simple resistor, their entity simply "
+"references one unit. For parts consisting of multiple \"gates\" like a "
+"dual operational amplifier or a big MCU, each gate references one unit. "
+"Having units separate from entities allows multiple entities to share the "
+"same units. The entity for a dual logic gate thus is supposed to "
+"reference the same unit as a quad one. Apart from a name, a pin has a "
+"direction (for ERC) and optionally alternate pin names to deal with pins "
+"having multiple functions as it's common among MCUs."
+msgstr ""
+"Jednotka ve skutečnosti definuje logické vývody součástky. Pouze pro součástky, které "
+"sestávají z jednoho celku \"gate\" jako např. regulátory napětí, jejich entity jednoduše "
+"odkazují na jednu jednotku (Unit). Pro části sestávající z více celků \"gate\" jako "
+"duální operační zesilovač nebo velký mikroprocesor, každý celek \"gate\" odkazuje na jednu jednotku. "
+"Mít jednotky oddělené od entit umožňuje sdílení více entit "
+"stejnou jednotkou. Předpokládá se tedy, že entita jednoho logického celku \"gate\" může odkazovat na stejnou jednotku např, čtyřikrát. Kromě jména má vývod i směr (pro ERC) a volitelně alternativní názvy vývodů (pinů) pro popis vývodů, které mají více funkcí, jak je běžné např. u Mikroprocesorů."
+
+#: ../../pool-elements.rst:49
+msgid "Symbols"
+msgstr "Symboly (Symbols)"
+
+#: ../../pool-elements.rst:51
+msgid ""
+"A symbol is used in the schematic to represent a unit. Contrary to other "
+"EDA applications, a symbol just displays the pins from its unit and "
+"doesn't define these."
+msgstr ""
+"Symbol se používá ve schématu k reprezentaci jednotky. Na rozdíl od jiných "
+"EDA aplikací, symbol právě zobrazuje vývody z jeho jednotky a nedefinuje je."
+
+#: ../../pool-elements.rst:56
+msgid "Padstacks"
+msgstr ""
+
+# Here I've reconciled with the content of padstacks.rst which no longer exists
+#: ../../pool-elements.rst:58
+msgid ""
+"In horizon a pad references a padstack to determine its shape. There are "
+"two kinds of padstacks in horizon: Global padstacks are available for use "
+"to all packages and should cover most uses cases. In case a package "
+"requires a specialized padstack, you can create one using the \"Create "
+"padstack for package\" button in the \"Packages\" tab in the pool manager."
+msgstr ""
+"V Horizonu-EDA pájecí obrazec (pad) součástky odkazuje na definici pájecího místa (padstack) příslušného vývodu, která určuje tvar pájecího místa (plošky). V programu existují dva druhy pájecích míst: "
+"Globální pájecí místa jsou k dispozici pro použití na všechna pouzdra součástek a měly by pokrývat většinu případů použití. V případě pouzdra součástky vyžadující speciální speciální pájecí obrazec, je možné jej vytvořit pomocí tlačítka \"Create padstack for package\" na záložce pouzdra \"Packages\" ve správci fondu."
+
+#: ../../pool-elements.rst:64
+msgid "A padstack consists of these items:"
+msgstr "Pájecí místo se skládá z těchto částí:"
+
+#: ../../pool-elements.rst:66
+msgid "Copper"
+msgstr "Obrazec měděné vrstvy"
+
+#: ../../pool-elements.rst:67
+msgid "Solder mask opening"
+msgstr "Obrazec pájecí masky"
+
+#: ../../pool-elements.rst:68
+msgid "Paste mask"
+msgstr "Obrazec pájecí pasty"
+
+#: ../../pool-elements.rst:69
+msgid "Hole (optional)"
+msgstr "Otvor (volitelné)"
+
+#: ../../pool-elements.rst:71
+msgid ""
+"The preferred way of defining geometry in padstacks is to use shapes as "
+"these get translated to efficient primitives when exporting the board as "
+"a gerber file. To suit more than one package parameters can be applied to "
+"padstacks that alter their size. Parameters are also used to apply "
+"application-specific global parameters like solder mask expansion and "
+"paste mask contraction. To get an idea on how this works out in reality "
+"take a look at the global padstacks in the pool."
+msgstr ""
+"Upřednostňovaným způsobem definování geometrie pájecích míst je použití takových tvarů, které jsou vhodné pro export do gerber souboru. Pro se souhlasení více než jednoho parametru pouzdra lze použít pájecí místa, která mění svoji velikost. Lze využít také globální parametry specifické pro aplikaci, jako je rozšíření pájecí masky a zúžení masky. Chcete-li získat představu o tom, jak to doopravdy funguje podívejte se na globální pájecí místa ve fondu knihovny."
+
+#: ../../pool-elements.rst:79
+msgid ""
+"To apply the parameters to the padstack's geometry each padstack is "
+"accompanied by a :doc:`Parameter Program <parameter-programs>`  that "
+"takes care of applying the parameters to the shapes."
+msgstr ""
+"Chcete-li použít parametry na geometrii pájecího místa, je to popsáno v kapitole :doc:`Parametry programu <parameter-programs>`, které se postarají o změnu parametrů tvarů pájecích míst."

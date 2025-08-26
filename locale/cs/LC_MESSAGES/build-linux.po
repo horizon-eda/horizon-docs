@@ -1,0 +1,147 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../build-linux.rst:2
+msgid "Building on Linux"
+msgstr "Sestavení (kompilace) programu na operačním systému Linux"
+
+#: ../../build-linux.rst:4
+msgid ""
+"Building horizon on Linux is as simple as ``make`` after you’ve cloned "
+"this repo."
+msgstr ""
+"Sestavení programu Horizon-EDA v Linuxu je podobně jednoduché jako ve Windows"
+
+#: ../../build-linux.rst:8
+msgid "Install dependencies"
+msgstr "Nainstalujte související součásti"
+
+#: ../../build-linux.rst:10
+msgid "Make sure you got these dependencies installed:"
+msgstr ""
+"Ujistěte se, že máte nainstalované tyto nezbytné související knihovny:"
+
+#: ../../build-linux.rst:12
+msgid "Gtkmm3 ≥ 3.20"
+msgstr "Gtkmm3 >= 3.20"
+
+#: ../../build-linux.rst:13
+msgid "cairomm-pdf"
+msgstr "cairomm-pdf"
+
+#: ../../build-linux.rst:14
+msgid "librsvg"
+msgstr "librsvg"
+
+#: ../../build-linux.rst:15
+msgid "util-linux"
+msgstr "util-linux"
+
+#: ../../build-linux.rst:16
+msgid "yaml-cpp"
+msgstr "yaml-cpp"
+
+#: ../../build-linux.rst:17
+msgid "sqlite"
+msgstr "sqlite"
+
+#: ../../build-linux.rst:18
+msgid "boost"
+msgstr "boost"
+
+#: ../../build-linux.rst:19
+msgid "zeromq"
+msgstr "zeromq"
+
+#: ../../build-linux.rst:20
+msgid "glm"
+msgstr "glm"
+
+#: ../../build-linux.rst:21
+msgid "libgit2"
+msgstr "libgit2"
+
+#: ../../build-linux.rst:22
+msgid "curl"
+msgstr "curl"
+
+#: ../../build-linux.rst:23
+msgid "opencascade / opencascade community edition"
+msgstr "opencascade / opencascade community edition"
+
+#: ../../build-linux.rst:24
+msgid "zeromq with C++ bindings: https://github.com/zeromq/cppzmq"
+msgstr "zeromq with C++ bindings: https://github.com/zeromq/cppzmq"
+
+#: ../../build-linux.rst:25
+msgid "podofo"
+msgstr "podofo"
+
+#: ../../build-linux.rst:26
+msgid "libzip"
+msgstr "libzip"
+
+# FIXME there is a sentence that doesn't fit with the original text
+#: ../../build-linux.rst:28
+msgid "On Ubuntu ≥17.04 run:"
+msgstr ""
+"pro různé distribuce jsou zde předpřipraveny příkazy pro případnou instalaci knihoven."
+"Pro verzi Ubuntu >= 17.04:"
+
+#: ../../build-linux.rst:37
+msgid "On Arch Linux:"
+msgstr "V systému Arch Linux:"
+
+#: ../../build-linux.rst:44
+msgid "On Fedora 25/26/27:"
+msgstr "Na Fedoře 25/26/27:"
+
+#: ../../build-linux.rst:52 ../../build-linux.rst:60
+msgid "On openSUSE Tumbleweed:"
+msgstr "Na openSUSE Tumbleweed:"
+
+#: ../../build-linux.rst:68
+msgid "On FreeBSD 12:"
+msgstr "Na FreeBSD 12:"
+
+#: ../../build-linux.rst:76
+msgid "Build it"
+msgstr "Sestavení (kompilace) programu ze zdrojového kódu"
+
+#: ../../build-linux.rst:83
+msgid "Running"
+msgstr "Spuštění programu"
+
+#: ../../build-linux.rst:85
+msgid ""
+"The resulting binaries are self-contained and don’t require any external "
+"data files like icons or so. ``horizon-eda`` is the main program "
+"executable. Run it from the build directory:"
+msgstr ""
+"Výsledné binární soubory jsou samostatné a nevyžadují žádné externí "
+"datové soubory jako ikony nebo podobně. "
+"``horizon-eda`` je hlavní spustitelný program. Spouštějte jej ze složky kde byl sestaven pomocí příkazu:"
+
+
+# FIXE this sentences doesn't fit with the original english version
+
+# "Klonovat zdrojový kód programu Horizon-EDA"
+
+# "Číslo 4 na konci můžete upravit podle počtu procesorů ve vašem systému pro rychlejší kompilaci. Očekávejte 100% zatížení procesoru (CPU) po dobu několika minut dle výkonu počítače. Z důvodu zapnuté volby vkládání ladících symbolů mají výsledné spustitelné soubory značnou velikost."

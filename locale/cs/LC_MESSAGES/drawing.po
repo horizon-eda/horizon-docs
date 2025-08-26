@@ -1,0 +1,180 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../drawing.rst:2
+msgid "Drawing"
+msgstr ""
+
+#: ../../drawing.rst:4
+msgid ""
+"The different Editors in Horizon EDA share a set of different Drawing "
+"tools. Here you can see the ones available in the Board Editor:"
+msgstr ""
+
+#: ../../drawing.rst:8
+msgid "The drawing tools are mainly split in three categories:"
+msgstr ""
+
+#: ../../drawing.rst:10
+msgid "lines"
+msgstr ""
+
+#: ../../drawing.rst:11
+msgid "polygons"
+msgstr ""
+
+#: ../../drawing.rst:12
+msgid "special (like draw track, draw dimension etc.)"
+msgstr ""
+
+#: ../../drawing.rst:14
+msgid ""
+"Lines are usually used for everything visual (e.g. Silkscreens) while "
+"polygones are used for all things where it matters that the thing you "
+"draw results in a closed shape (pads, board outlines, package assembly "
+"and courtyard layers, etc.)"
+msgstr ""
+
+#: ../../drawing.rst:18
+msgid "Draw Line"
+msgstr ""
+
+#: ../../drawing.rst:22
+msgid ""
+"To draw a line simply select the \"Draw line\" Action in the spacebar "
+"menu or type the key sequence :kbd:`d l` (think: \"draw line\") – once "
+"you click anywhere, you start the first point of the line right at the "
+"place where your manipulator was. You might notice that the point snaps "
+"to the grid. If you want a finer grid hold the :kbd:`Alt` key down while "
+"placing points. Left mouse button places more and more points, while the "
+"right mouse button (or pressing :kbd:`Esc`) will finish the lines."
+msgstr ""
+
+#: ../../drawing.rst:24
+msgid ""
+"You might also have noticed the Action Bar at the left bottom of the "
+"editor window:"
+msgstr ""
+
+#: ../../drawing.rst:28
+msgid ""
+"The Action bar will show additional keys you can press to change the "
+"behaviour of the tool. In this case you could press :kbd:`w` to change "
+"the width of the stroke or :kbd:`/` to restrict the movment of the "
+"manipulator to one direction."
+msgstr ""
+
+#: ../../drawing.rst:32
+msgid "Draw Line Rectangle"
+msgstr ""
+
+#: ../../drawing.rst:36
+msgid ""
+"To save your time, there is also a \"Draw line rectangle\" Action, which "
+"can also be invoked by typing :kbd:`d L`. Per default you first set the "
+"rectangles center point and than one of the corner points. By pressing :"
+"kbd:`c` you can change this behaviour and set two diagonally opposed "
+"corner points instead."
+msgstr ""
+
+#: ../../drawing.rst:40
+msgid "Draw Arc"
+msgstr ""
+
+#: ../../drawing.rst:44
+msgid ""
+"The \"Draw arc\" tool is straightforward it draws line arcs by setting "
+"three points (in this order): start point, end point and the center "
+"point. You can also use the key sequence :kbd:`d a` to start the tool. If "
+"you want your arc to flip direction, press :kbd:`e` before putting down "
+"the center point."
+msgstr ""
+
+#: ../../drawing.rst:47
+msgid "Draw Polygon"
+msgstr ""
+
+#: ../../drawing.rst:51
+msgid ""
+"When drawing polygons with :kbd:`d y` you can set a series of points by "
+"clicking, until you either press :kbd:`Esc` or use the right mouse "
+"button. You can make the next edge of the polygon an arc by pressing :kbd:"
+"`a`. Just like with the \"Draw Arc\" tool set the endpoint first and the "
+"center point after. Before setting the center point you can flip the arc "
+"direction with :kbd:`e` and finally you set the end point of the arc."
+msgstr ""
+
+#: ../../drawing.rst:54
+msgid "Draw Polygon Rectangle"
+msgstr ""
+
+#: ../../drawing.rst:61
+msgid ""
+"Similar to the \"Draw line rectangle\" Tool there is a \"Draw polygon "
+"rectangle\" tool. Invoke it by typing :kbd:`d Y`. Just like with the "
+"according line Tool you can switch between the different draw modes "
+"(Center/Corner) by pressing :kbd:`c`."
+msgstr ""
+
+#: ../../drawing.rst:63
+msgid ""
+"There are some differences though: you can set a corner radius by "
+"pressing :kbd:`r` and entering a value and you can choose a decoration by "
+"pressing :kbd:`d`. These decorations are used to mark the pin 1 on a "
+"Package's assembly layer. You can cycle through different decoration "
+"positions by pressing :kbd:`p` and set the size of the decoration by "
+"pressing :kbd:`s` and entering a value."
+msgstr ""
+
+#: ../../drawing.rst:66
+msgid "Draw Polygon Circle"
+msgstr ""
+
+#: ../../drawing.rst:72
+msgid ""
+"For ease of use there is also a \"Draw polygon circle\" Tool. With the "
+"first click you set the circles center point and by setting the second "
+"point you set the radius. You can also enter a radius by pressing :kbd:"
+"`r` and entering a value."
+msgstr ""
+
+#: ../../drawing.rst:76
+msgid "Draw Dimension"
+msgstr ""
+
+#: ../../drawing.rst:82
+msgid ""
+"Sometimes it can be useful to add dimension information to certain parts. "
+"You can do so by using the \"Draw dimension\" ActToolion. Start it by "
+"typing :kbd:`d d`, selecting the first and the second point and dragging "
+"it out. If the numeric value is on the wrong side, you can fix it by "
+"selecting the dimension and flipping it with the :kbd:`e` key."
+msgstr ""
+
+#: ../../drawing.rst:84
+msgid ""
+"Dimensions can also be set to specified length by selecting the end "
+"that's supposed to move and activating the \"Enter Datum\" tool (press "
+"Enter). You can then snap other items to the end points of the dimension."
+msgstr ""
+
+#: ../../drawing.rst:89
+msgid "Next: :doc:`Selection<selection>`"
+msgstr ""

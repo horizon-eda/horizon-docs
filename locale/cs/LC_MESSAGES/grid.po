@@ -1,0 +1,54 @@
+# Horizon EDA Documentation.
+# Copyright (C) 2019, Lukas K.
+# This file is distributed under the same license as the horizon-eda
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: horizon-eda \n"
+"Report-Msgid-Bugs-To: https://github.com/horizon-eda/horizon-docs/issues\n"
+"POT-Creation-Date: 2020-04-18 15:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CZECH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../grid.rst:2
+msgid "Grid"
+msgstr ""
+
+#: ../../grid.rst:4
+msgid ""
+"All movments in Horizon happen on the grid. By holding :kbd:`Alt` you get "
+"a finer grid (by a factor of 10)."
+msgstr ""
+
+#: ../../grid.rst:6
+msgid ""
+"You can change the size of the grid by changing the value in the numeric "
+"field on the top left of the window. Note that depending on a zoom level "
+"your grid may be resized by factors of two."
+msgstr ""
+
+#: ../../grid.rst:10
+msgid ""
+"You can enter basic math operations into *any* numeric field in horizon, "
+"this makes it easy to divide a value by two, multiplying something by a "
+"certain factor, or adding a value to a coordinate to create a fixed "
+"offset. For more details, see :doc:`Numeric entries<entries>`."
+msgstr ""
+
+#: ../../grid.rst:12
+msgid ""
+"You can change the appearance of the grids and the cursor in the "
+"Preferences:"
+msgstr ""
+
+#: ../../grid.rst:17
+msgid "Next: :doc:`Drawing<drawing>`"
+msgstr ""
