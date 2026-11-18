@@ -17,7 +17,7 @@ doesn’t contain any spaces. (Don’t blame me for that one)
 Start MSYS console
 ------------------
 
-Launch the Start Menu item “MSYS2 mingw 64 bit” you should be greeted
+Launch the Start Menu item “MSYS2 UCRT64” you should be greeted
 with a console window. All steps below refer to what you should type
 into that window.
 
@@ -40,13 +40,14 @@ Type/paste
 
 ::
 
-   pacman -S mingw-w64-x86_64-gtkmm3 git base-devel \
-   mingw-w64-x86_64-boost mingw-w64-x86_64-curl \
-   mingw-w64-x86_64-sqlite3  mingw-w64-x86_64-toolchain  \
-   mingw-w64-x86_64-zeromq mingw-w64-x86_64-glm zip \
-   mingw-w64-x86_64-libgit2 mingw-w64-x86_64-oce mingw-w64-x86_64-cppzmq \
-   mingw-w64-x86_64-podofo mingw-w64-x86_64-libarchive \
-   mingw-w64-x86_64-meson mingw-w64-x86_64-cmake --needed
+   pacman -S mingw-w64-ucrt-x86_64-gtkmm3 git base-devel \
+   mingw-w64-ucrt-x86_64-curl \
+   mingw-w64-ucrt-x86_64-sqlite3  mingw-w64-ucrt-x86_64-toolchain  \
+   mingw-w64-ucrt-x86_64-zeromq mingw-w64-ucrt-x86_64-glm zip \
+   mingw-w64-ucrt-x86_64-libgit2 mingw-w64-ucrt-x86_64-opencascade \
+   mingw-w64-ucrt-x86_64-podofo mingw-w64-ucrt-x86_64-libarchive \
+   mingw-w64-ucrt-x86_64-meson mingw-w64-ucrt-x86_64-cmake --needed
+
 
 When prompted, just hit return. Sit back and wait for it to install
 what’s almost a complete linux environment.
